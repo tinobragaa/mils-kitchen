@@ -95,3 +95,32 @@ body {
     text-decoration: underline;
     text-underline-offset: 0.225rem;
 }
+
+/* Hero image and cover box */
+
+#hero-image {
+    background: url(../images/hero-image.jpg) center center no-repeat;
+    background-size: cover;
+    height: 900px;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+#cover-text h2 {
+    padding: 25px;
+}
+
+#cover-text {
+    background-color: #D7E5D6;
+    color: #0E150E;
+    font-size: 210%;
+    text-align: center;
+    text-transform: uppercase;
+    border-radius: 15px;
+    height: 450px;
+    width: 400px;
+    left: 80px;
+    top: 225px;
+    position: absolute;
+}
