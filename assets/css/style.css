@@ -5,3 +5,63 @@
     padding: 0;
     border: none;
 }
+
+body {
+    background-color: #EAE6DA;
+    color: #0E150E;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 600;
+}
+
+/* Navigation bar, navigation links and logo */
+
+#nav-bar {
+    background-color: #EAE6DA;
+    height: 7vh;
+}
+
+.logo {
+    font-family: 'Shadows Into Light', sans-serif;
+    transform: translateX(-50%);
+    left: 50%;
+    top: 8px;
+    position: absolute;
+}
+
+.logo a {
+    color: #00473c;
+    text-decoration: none;
+}
+
+.itens-left {
+    padding-left: 50px;
+}
+
+.itens-right {
+    padding-right: 50px;
+}
+
+.nav-row ul {
+    list-style-type: none;
+    text-align: right;
+    margin: auto;
+    padding: 20px 0 0;
+}
+
+.nav-row ul li {
+    float: none;
+    display: inline-block;
+}
+
+.nav-row ul li:nth-child(1) {float: left;}
+.nav-row ul li:nth-child(2) {float: left;}
+
+.nav-row ul li a {
+    color: #0E150E;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-decoration: none;
+    display: inline-block;
+    padding: 3px 30px;
+}
