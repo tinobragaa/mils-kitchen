@@ -13,6 +13,11 @@ body {
     font-weight: 600;
 }
 
+.main-container {
+    width: 100%; 
+    margin:0 auto; 
+}
+
 /* Navigation bar, navigation links and logo */
 
 #nav-bar {
@@ -64,4 +69,29 @@ body {
     text-decoration: none;
     display: inline-block;
     padding: 3px 30px;
+}
+
+/* Sticky navigation and hover effect */
+
+.main-header {
+    width: 100%;
+    top:0;
+    z-index: 3;
+    position:-webkit-sticky; 
+    position:sticky; 
+}
+
+.nav-row a:hover {
+    text-decoration: underline;
+    text-underline-offset: 0.225rem;
+}
+
+.nav-link {
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.nav-link.active {
+    text-decoration: underline;
+    text-underline-offset: 0.225rem;
 }
