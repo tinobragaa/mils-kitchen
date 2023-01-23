@@ -108,7 +108,7 @@ body {
 }
 
 #cover-text h2 {
-    padding: 25px;
+    padding: 20px 25px;
 }
 
 #cover-text {
@@ -123,4 +123,33 @@ body {
     left: 80px;
     top: 225px;
     position: absolute;
+}
+
+/* Cover button hover effect */
+
+#cover-button {
+    background-color: #0E150E;
+    border-radius: 15px;
+    height: 40px;
+    width: 230px;
+    left: 85px;
+    position: relative;
+}
+
+#cover-button h3 {
+    font-size: 70%;
+    letter-spacing: 2px;
+    padding: 5px 4.5px;
+}
+
+#cover-button a {
+    color: #EAE6DA;
+    text-transform: capitalize;
+    text-decoration: none;
+}
+
+#cover-button a:hover {
+    background-color: #EAE6DA;
+    color: #0E150E;
+    border-radius: 10px;
 }
