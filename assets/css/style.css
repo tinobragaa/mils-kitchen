@@ -281,3 +281,29 @@ body {
     top: 20px;
     left: 26px;
 }
+
+/* Circle number hover effect */
+
+.circle-number {
+    background-color: #00473c;
+    color: #EAE6DA;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    font-family: 'Shadows Into Light', sans-serif;
+    font-size: 250%;
+    margin: 0 auto;
+}
+
+.circle-number > h2 {
+    top: 0;
+}
+
+.circle-number > h2:hover {
+    background-color: #EAE6DA;
+    color: #00473c;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    border: 2px solid #0E150E;
+}
