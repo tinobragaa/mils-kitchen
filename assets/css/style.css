@@ -222,3 +222,62 @@ body {
     color: #0E150E;
     text-decoration: none;
 }
+
+/* How it works */
+
+.second-container {
+    background-color: #D7E5D6;
+    height: 580px;
+}
+
+.second-container h2 {
+    font-size: 300%;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-align: center;
+    top: 42px;
+    position: relative;
+}
+
+.second-container p {
+    font-size: 105%;
+    text-transform: none;
+    text-align: center;
+    top: 48px;
+    position: relative;
+}
+
+#steps-box {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 450px;
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.steps-items {
+    text-align: center;
+    width: 350px;
+    margin: auto;
+    top: 25px;
+    position: relative;
+}
+
+.steps-items h3 {
+    font-size: 160%;
+    text-transform: uppercase;
+    font-weight: bolder;
+    letter-spacing: 1px;
+    padding-top: 30px;
+}
+
+.steps-items p {
+    font-size: 80%;
+    text-align: justify;
+    width: 300px;
+    top: 20px;
+    left: 26px;
+}
