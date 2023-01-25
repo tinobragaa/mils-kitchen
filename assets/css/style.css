@@ -223,6 +223,12 @@ body {
     text-decoration: none;
 }
 
+/* Plans text hover effect */
+
+.plan-items a:hover {
+    border-bottom: 1px solid #0E150E;
+}
+
 /* How it works */
 
 .second-container {
