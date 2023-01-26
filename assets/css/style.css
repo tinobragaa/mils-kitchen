@@ -313,3 +313,40 @@ body {
     border-radius: 50%;
     border: 2px solid #0E150E;
 }
+
+/* Meet the chef */
+
+#chef-container {
+    background-color: #EAE6DA;
+    height: 795px;
+}
+
+#chef-box {
+    width: 1600px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+#text-items {
+    text-align: justify;
+    width: 67%;
+    margin-left: 25px;
+}
+
+#text-items > h2 {
+    font-size: 350%;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    top: 42px;
+    position: relative;
+}
+
+#text-items p {
+    font-size: 140%;
+    line-height: 200%;
+    letter-spacing: 2px;
+    top: 48px;
+    position: relative
+}
