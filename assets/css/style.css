@@ -350,3 +350,16 @@ body {
     top: 48px;
     position: relative
 }
+
+#portrait-items {
+    width: 30%;
+}
+
+#portrait-items img {
+    max-height: 650px;
+    max-width: 550px;
+    border-radius: 15px;
+    top: 70px;
+    left: 60px;
+    position: relative;
+}
