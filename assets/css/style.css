@@ -363,3 +363,32 @@ body {
     left: 60px;
     position: relative;
 }
+
+#story-button {
+    background-color: #0E150E;
+    border-radius: 13px;
+    height: 37px;
+    width: 160px;
+    top: 70px;
+    position: relative;
+}
+
+#story-button h3 {
+    font-size: 140%;
+    letter-spacing: 2px;
+    left: 7%;
+    top: 4px;
+    position: relative;
+}
+
+#story-button a {
+    color: #EAE6DA;
+    text-transform: capitalize;
+    text-decoration: none;
+}
+
+#story-button a:hover {
+    background-color: #EAE6DA;
+    color: #0E150E;
+    border-radius: 10px;
+}
