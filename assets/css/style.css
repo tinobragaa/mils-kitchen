@@ -395,8 +395,6 @@ body {
 
 /* Footer */
 
-/* Footer */
-
 #footer {
     background-color: #D3C2AE;
     height: 7vh;
@@ -429,4 +427,11 @@ body {
     font-size: 18px;
     font-weight: 700;
     padding: 3px 30px;
+}
+
+/* Footer hover effect */
+
+.footer-row a:hover {
+    text-decoration: underline;
+    text-underline-offset: 0.225rem;
 }
