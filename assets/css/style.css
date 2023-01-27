@@ -364,6 +364,8 @@ body {
     position: relative;
 }
 
+/* Our Story button hover effect */
+
 #story-button {
     background-color: #0E150E;
     border-radius: 13px;
