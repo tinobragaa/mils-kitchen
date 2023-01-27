@@ -392,3 +392,41 @@ body {
     color: #0E150E;
     border-radius: 10px;
 }
+
+/* Footer */
+
+/* Footer */
+
+#footer {
+    background-color: #D3C2AE;
+    height: 7vh;
+    width: 100%;
+}
+
+.footer-row ul {
+    margin: auto;
+    padding: 20px 0 0;
+    list-style-type: none;
+    text-align: right;
+}
+
+.footer-row ul li {
+    float: none;
+    display: inline-block;
+}
+
+.footer-row ul li:nth-child(1) {float: left;}
+
+.footer-row ul li:nth-child(2) {float: left;}
+
+.footer-row ul li:nth-child(3) {float: left;}
+
+.footer-row ul li a {
+    display: inline-block;
+    color: #0E150E;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 700;
+    padding: 3px 30px;
+}
