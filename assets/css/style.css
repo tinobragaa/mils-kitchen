@@ -521,3 +521,34 @@ body {
     top: 20px;
     position: relative;
 }
+
+/* Personalised */
+
+.personalised-container {
+    background-color: #EAE6DA;
+    height: 640px;
+}
+
+#personalised-box {
+    background-color: #dbddba;
+    height: 445px;
+    width: 900px;
+    border-radius: 15px;
+    margin: 0 auto;
+}
+
+#personalised-box h2 {
+    font-size: 200%;
+    text-transform: uppercase;
+    border-bottom: 2px dotted #0E150E;
+    text-align: center;
+    letter-spacing: 2px;
+    padding: 30px 30px 30px;
+}
+
+#personalised-box p {
+    font-size: 140%;
+    text-align: justify;
+    letter-spacing: 1px;
+    padding: 30px 80px;
+}
