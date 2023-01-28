@@ -552,3 +552,34 @@ body {
     letter-spacing: 1px;
     padding: 30px 80px;
 }
+
+/* Order now button */
+
+.order-button {
+    background-color: #0E150E;
+    border-radius: 13px;
+    height: 37px;
+    width: 160px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.order-button h3 {
+    font-size: 140%;
+    letter-spacing: 2px;
+    left: 7%;
+    top: 4px;
+    position: relative;
+}
+
+.order-button a {
+    color: #EAE6DA;
+    text-transform: capitalize;
+    text-decoration: none;
+}
+
+.order-button a:hover {
+    background-color: #EAE6DA;
+    color: #0E150E;
+    border-radius: 10px;
+}
