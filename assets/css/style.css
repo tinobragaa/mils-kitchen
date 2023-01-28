@@ -437,3 +437,34 @@ body {
     text-decoration: underline;
     text-underline-offset: 0.225rem;
 }
+
+/* PLANS PAGE */
+
+/* Plan heading */
+
+.plansp-container {
+    background-color: #dbddba;
+    height: 1145px;
+}
+
+#plan-heading {
+    background-color: #EAE6DA;
+    height: 150px;
+}
+
+#plan-heading h2 {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 300%;
+    text-align: center;
+    top: 25px;
+    position: relative;
+}
+
+#plan-heading p {
+    text-transform: none;
+    font-size: 105%;
+    text-align: center;
+    top: 31px;
+    position: relative;
+}
