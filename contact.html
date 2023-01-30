@@ -34,48 +34,48 @@
                 </nav>
             </div>
         </header>
-        <section>
-            <div>
-                <h2>Ready to order? Drop us a message!</h2>
+        <section class="contact-container">
+            <div id="contact-heading">
+                <h2>Ready to order?<br>Drop us a message!</h2>
             </div>
-            <div>
-                <div>
+            <div class="contact-box">
+                <div id="contact-img_item">
                     <img src="" alt="">
                 </div>
-                <div>
+                <div class="contact-form_item">
                     <h2>Place your order</h2>
                     <p>Give yourself a break from the kitchen. Fill the form with your information, select a plan and we will reach out to finish your order.</p>
-                    <form action="" method="GET">
-                        <label for="">Full Name*</label>
+                    <form action="thanks.html" method="GET">
+                        <label for="full-name">Full Name*</label>
                         <br>
-                        <input id="" type="" name="" placeholder="" class="" required>
+                        <input id="full-name" type="text" name="full_name" placeholder="Your full name" class="text-input" required>
                         <br>
-                        <label for="">Phone*</label>
+                        <label for="phone-number">Phone*</label>
                         <br>
-                        <input id="" type="" name="" placeholder="" class="" required>
+                        <input id="phone-number" type="text" name="phone_number" placeholder="Your contact number" class="text-input" required>
                         <br>
                         <label for="email">Email Address*</label>
                         <br>
-                        <input id="" type="" name="" placeholder="" class="" required>
+                        <input id="email" type="email" name="email_address" placeholder="Your email" class="text-input" required>
                         <br>
-                        <label for="">Choose a Plan*</label> 
+                        <label for="plans">Choose a Plan*</label> 
                         <br>
-                        <input id="" type="" name="" placeholder="" class="" list="">
+                        <input id="plans" type="text" name="plan_choice" list="plans-options" placeholder="Select one" class="text-input">
                         <br>
-                        <datalist>
-                            <option value="">
-                            <option value="">
-                            <option value="">
+                        <datalist id="plans-options">
+                            <option value="Traditional">
+                            <option value="Vegetarian">
+                            <option value="Personalised">
                         </datalist>
                         <label for="message"></label>
-                        <div><p>Tell us how would you like your meals, don't forget to mention if you have any kind of allergies*</p></div>
-                        <textarea id="" name="" cols="" rows="" placeholder="" class=""></textarea>
+                        <div id="informative-box_text"><p>Tell us how would you like your meals, don't forget to mention if you have any kind of allergies*</p></div>
+                        <textarea id="message" name="message" cols="30" rows="10" placeholder="Tell us what you want, the more information the better!" class="message-box"></textarea>
                         <br>
-                        <label for="">Upload your diet plan:</label>
-                        <input id="" type="" name="" accept="" class="">
+                        <label for="supportive-doc">Upload your diet plan:</label>
+                        <input id="supportive-doc" type="file" name="supportive_image" accept=".png, .jpeg, .pdf, .doc" class="upload-button" multiple>
                         <br>
-                        <div>
-                            <input type="" value="=" id="">
+                        <div class="submit-button_box">
+                            <input type="submit" value="Order Now!" id="submit-button">
                         </div>
                     </form>
                 </div>

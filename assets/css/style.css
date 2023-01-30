@@ -721,3 +721,150 @@ body {
     top: 2px;
     position: relative;
 }
+
+/* CONTACT PAGE */
+
+/* Contact heading */
+
+#contact-heading {
+    background-color: #EAE6DA;
+    height: 150px;
+}
+
+#contact-heading h2 {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 300%;
+    text-align: center;
+}
+
+/* Form */
+
+.contact-container {
+    background-color: #b0b383;
+    height: 958px;
+}
+
+.contact-box {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: center;
+    flex-wrap: wrap;
+    height: 808px;
+    width: 1200px;
+    margin: 0 auto;    
+}
+
+#contact-img_item {
+    width: 50%;
+    top: 36px;
+    position: relative;
+}
+
+#contact-img_item img {
+    max-height: 675px;
+    max-width: 700px;
+    border-radius: 25px;
+    top: 30px;
+    position: relative;
+}
+
+.contact-form_item {
+    width: 50%;
+    text-align: left;
+    top: 25px;
+    position: relative;
+} 
+
+.contact-form_item h2 {
+    font-size: 260%;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    left: 50px;
+    position: relative;
+}
+
+.contact-form_item p {
+    width: 520px;
+    text-align: justify;
+    margin: 20px 0;
+}
+
+.contact-form_item input {
+    margin-bottom: 10px;
+}
+
+.contact-form_item label {
+    bottom: 6px;
+    position: relative;
+}
+
+#informative-box_text p {
+    bottom: 12px;
+    position: relative;
+}
+.text-input {
+    background-color: #EAE6DA;
+    color: #0E150E;
+    border-radius: 10px;
+    border: 1px solid #0E150E;
+    padding-left: 5px;
+    height: 40px;
+    width: 515px;
+}
+
+.message-box {
+    background-color: #EAE6DA;
+    color: #0E150E;
+    border-radius: 10px;
+    border: 1px solid #0E150E;
+    padding-top: 10px;
+    padding-left: 5px;
+    height: 110px;
+    width: 515px;
+    bottom: 16px;
+    position: relative;
+}
+
+.message-box:focus, .text-input:focus {
+    outline: none !important;
+    border-color: #00473c;
+    box-shadow: 0 0 10px #00473c;
+}
+
+.upload-button {
+    bottom: 6px;
+    position: relative;
+}
+
+/* Submit button */
+
+.submit-button_box {
+    background-color: #0E150E;
+    border-radius: 12px;
+    height: 32px;
+    width: 120px;
+    margin-top: 10px;
+    top: 5px;
+    left: 200px;
+    position: relative;
+}
+
+#submit-button {
+    background-color: #0E150E;
+    font-size: 125%;
+    color: #EAE6DA;
+    text-transform: capitalize;
+    text-decoration: none;
+    border-radius: 10px;
+    top: 5px;
+    left: 8px;
+    position: relative;
+}
+
+#submit-button:hover {
+    background-color: #EAE6DA;
+    color: #0E150E;
+    border-radius: 10px;
+}
