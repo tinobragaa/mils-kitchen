@@ -22,7 +22,7 @@ body {
 
 #nav-bar {
     background-color: #EAE6DA;
-    height: 7vh;
+    height: 68px;
 }
 
 .logo {
@@ -399,7 +399,7 @@ body {
 
 #footer {
     background-color: #D3C2AE;
-    height: 7vh;
+    height: 68px;
     width: 100%;
 }
 
@@ -447,12 +447,12 @@ body {
     height: 1145px;
 }
 
-#plan-heading {
+.plan-heading {
     background-color: #EAE6DA;
     height: 150px;
 }
 
-#plan-heading h2 {
+.plan-heading h2 {
     text-transform: uppercase;
     letter-spacing: 2px;
     font-size: 300%;
@@ -461,7 +461,7 @@ body {
     position: relative;
 }
 
-#plan-heading p {
+.plan-heading p {
     text-transform: none;
     font-size: 105%;
     text-align: center;
@@ -471,7 +471,7 @@ body {
 
 /* Traditional and Vegetarian */
 
-#first-food_box {
+.first-food_box {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -482,7 +482,7 @@ body {
     margin: 0 auto;
 }
 
-#second-food_box {
+.second-food_box {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
