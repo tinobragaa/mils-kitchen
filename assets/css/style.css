@@ -868,3 +868,55 @@ body {
     color: #0E150E;
     border-radius: 10px;
 }
+
+/* THANK YOU PAGE */
+
+/* Thank you heading */
+
+#thanks-heading {
+    background-color: #EAE6DA;
+    height: 150px;
+}
+
+#thanks-heading h2 {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 320%;
+    text-align: center;
+    top: 35px;
+    position: relative;
+}
+
+/* Thank you section */
+
+.thanks-text_item {
+    width: 50%;
+    text-align: left;
+    top: 25px;
+    position: relative;
+}
+
+.thanks-text_item h2 {
+    font-size: 260%;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    left: 125px;
+    position: relative;
+}
+
+.thanks-text_item p {
+    font-size: 140%;
+    width: 520px;
+    text-align: justify;
+    top: 20px;
+    position: relative;
+}
+
+.thanks-text_item a {
+    color: #EAE6DA;
+    text-decoration: none;
+}
+
+.thanks-text_item a:hover {
+    border-bottom: 1px solid #0E150E;
+}
