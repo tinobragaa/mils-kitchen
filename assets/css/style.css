@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&family=Rubik:wght@700&family=Shadows+Into+Light&display=swap');
 
+/* Structural settings */
+
 * {
     margin: 0;
     padding: 0;
@@ -7,7 +9,7 @@
 }
 
 body {
-    background-color: #EAE6DA;
+    background-color: #FFF9EA;
     color: #0E150E;
     font-family: 'Roboto Mono', monospace;
     font-weight: 600;
@@ -18,10 +20,12 @@ body {
     margin:0 auto; 
 }
 
+/* Home page */
+
 /* Navigation bar, navigation links and logo */
 
 #nav-bar {
-    background-color: #EAE6DA;
+    background-color: #FFF9EA;
     height: 68px;
 }
 
@@ -112,7 +116,7 @@ body {
 }
 
 #cover-text {
-    background-color: #D7E5D6;
+    background-color: #CAF0EA;
     color: #0E150E;
     font-size: 210%;
     text-align: center;
@@ -143,13 +147,13 @@ body {
 }
 
 #cover-button a {
-    color: #EAE6DA;
+    color: #FFF9EA;
     text-transform: capitalize;
     text-decoration: none;
 }
 
 #cover-button a:hover {
-    background-color: #EAE6DA;
+    background-color: #FFF9EA;
     color: #0E150E;
     border-radius: 10px;
 }
@@ -223,7 +227,7 @@ body {
     text-decoration: none;
 }
 
-/* Plans text hover effect */
+/* Plans link hover effect */
 
 .plan-items a:hover {
     border-bottom: 1px solid #0E150E;
@@ -232,7 +236,7 @@ body {
 /* How it works */
 
 .second-container {
-    background-color: #D7E5D6;
+    background-color: #BDE0D7;
     height: 580px;
 }
 
@@ -292,7 +296,7 @@ body {
 
 .circle-number {
     background-color: #00473c;
-    color: #EAE6DA;
+    color: #FFF9EA;
     height: 200px;
     width: 200px;
     border-radius: 50%;
@@ -306,7 +310,7 @@ body {
 }
 
 .circle-number > h2:hover {
-    background-color: #EAE6DA;
+    background-color: #FFF9EA;
     color: #00473c;
     height: 200px;
     width: 200px;
@@ -317,7 +321,7 @@ body {
 /* Meet the chef */
 
 #chef-container {
-    background-color: #EAE6DA;
+    background-color: #FFF9EA;
     height: 795px;
 }
 
@@ -384,13 +388,13 @@ body {
 }
 
 #story-button a {
-    color: #EAE6DA;
+    color: #FFF9EA;
     text-transform: capitalize;
     text-decoration: none;
 }
 
 #story-button a:hover {
-    background-color: #EAE6DA;
+    background-color: #FFF9EA;
     color: #0E150E;
     border-radius: 10px;
 }
@@ -431,7 +435,7 @@ body {
     padding: 3px 30px;
 }
 
-/* Footer hover effect */
+/* Footer link hover effect */
 
 .footer-row a:hover {
     text-decoration: underline;
@@ -443,12 +447,12 @@ body {
 /* Plan heading */
 
 .plansp-container {
-    background-color: #dbddba;
+    background-color: #DCE6C1;
     height: 1145px;
 }
 
 .plan-heading {
-    background-color: #EAE6DA;
+    background-color: #FFF9EA;
     height: 150px;
 }
 
@@ -469,7 +473,7 @@ body {
     position: relative;
 }
 
-/* Traditional and Vegetarian */
+/* Traditional and vegetarian */
 
 .first-food_box {
     display: flex;
@@ -525,12 +529,12 @@ body {
 /* Personalised */
 
 .personalised-container {
-    background-color: #EAE6DA;
+    background-color: #FFF9EA;
     height: 640px;
 }
 
 #personalised-box {
-    background-color: #dbddba;
+    background-color: #FFE1A8;
     height: 445px;
     width: 900px;
     border-radius: 15px;
@@ -573,13 +577,13 @@ body {
 }
 
 .order-button a {
-    color: #EAE6DA;
+    color: #FFF9EA;
     text-transform: capitalize;
     text-decoration: none;
 }
 
 .order-button a:hover {
-    background-color: #EAE6DA;
+    background-color: #FFF9EA;
     color: #0E150E;
     border-radius: 10px;
 }
@@ -589,7 +593,7 @@ body {
 /* About heading */
 
 #about-heading {
-    background-color: #EAE6DA;
+    background-color: #FFF9EA;
     height: 150px;
 }
 
@@ -603,7 +607,7 @@ body {
 /* About us */
 
 .about-container {
-    background-color: #D7E5D6;
+    background-color: #DCE6C1;
     height: 500px;
 }
 
@@ -616,6 +620,8 @@ body {
     height: 500px;
     width: 1200px;
     margin: 0 auto;    
+    top: 16px;
+    position: relative;
 }
 
 #about-text_items {
@@ -658,12 +664,14 @@ body {
     max-height: 400px;
     max-width: 700px;
     border-radius: 25px;
+    bottom: 16px;
+    position: relative;
 }
 
 /* Our goals */
 
 .goals-container {
-    background-color: #dbddba;
+    background-color: #FFE1A8;
     height: 505px;
 }
 
@@ -727,7 +735,7 @@ body {
 /* Contact heading */
 
 #contact-heading {
-    background-color: #EAE6DA;
+    background-color: #FFF9EA;
     height: 150px;
 }
 
@@ -741,7 +749,7 @@ body {
 /* Form */
 
 .contact-container {
-    background-color: #b0b383;
+    background-color: #DCE6C1;
     height: 958px;
 }
 
@@ -805,7 +813,7 @@ body {
     position: relative;
 }
 .text-input {
-    background-color: #EAE6DA;
+    background-color: #FFF9EA;
     color: #0E150E;
     border-radius: 10px;
     border: 1px solid #0E150E;
@@ -815,7 +823,7 @@ body {
 }
 
 .message-box {
-    background-color: #EAE6DA;
+    background-color: #FFF9EA;
     color: #0E150E;
     border-radius: 10px;
     border: 1px solid #0E150E;
@@ -826,6 +834,8 @@ body {
     bottom: 16px;
     position: relative;
 }
+
+/* Text input shadow effect */
 
 .message-box:focus, .text-input:focus {
     outline: none !important;
@@ -854,7 +864,7 @@ body {
 #submit-button {
     background-color: #0E150E;
     font-size: 125%;
-    color: #EAE6DA;
+    color: #FFF9EA;
     text-transform: capitalize;
     text-decoration: none;
     border-radius: 10px;
@@ -864,7 +874,7 @@ body {
 }
 
 #submit-button:hover {
-    background-color: #EAE6DA;
+    background-color: #FFF9EA;
     color: #0E150E;
     border-radius: 10px;
 }
@@ -874,7 +884,7 @@ body {
 /* Thank you heading */
 
 #thanks-heading {
-    background-color: #EAE6DA;
+    background-color: #FFF9EA;
     height: 150px;
 }
 
@@ -887,7 +897,7 @@ body {
     position: relative;
 }
 
-/* Thank you section */
+/* Thank you */
 
 .thanks-text_item {
     width: 50%;
@@ -913,7 +923,7 @@ body {
 }
 
 .thanks-text_item a {
-    color: #EAE6DA;
+    color: #FFF9EA;
     text-decoration: none;
 }
 
