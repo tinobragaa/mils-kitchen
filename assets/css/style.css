@@ -17,7 +17,7 @@ body {
 
 .main-container {
     width: 100%; 
-    margin:0 auto; 
+    margin: 0 auto; 
 }
 
 /* Home page */
@@ -79,10 +79,10 @@ body {
 
 .main-header {
     width: 100%;
-    top:0;
+    top: 0;
     z-index: 3;
-    position:-webkit-sticky; 
-    position:sticky; 
+    position: -webkit-sticky; 
+    position: sticky; 
 }
 
 .nav-row a:hover {
@@ -91,8 +91,8 @@ body {
 }
 
 .nav-link {
-    text-decoration: none;
     text-transform: uppercase;
+    text-decoration: none;
 }
 
 .nav-link.active {
@@ -107,8 +107,8 @@ body {
     background-size: cover;
     height: 900px;
     width: 100%;
-    overflow: hidden;
-    position: relative;
+    display: flex;
+    align-items: center;
 }
 
 #cover-text h2 {
@@ -119,25 +119,24 @@ body {
     background-color: #CAF0EA;
     color: #0E150E;
     font-size: 210%;
-    text-align: center;
     text-transform: uppercase;
-    border-radius: 15px;
+    text-align: center;
     height: 450px;
     width: 400px;
-    left: 80px;
-    top: 225px;
-    position: absolute;
+    border-radius: 15px;
+    float: left;
+    margin: 0 75px;
+    position: relative;
 }
 
 /* Cover button hover effect */
 
 #cover-button {
     background-color: #0E150E;
-    border-radius: 15px;
     height: 40px;
     width: 230px;
-    left: 85px;
-    position: relative;
+    border-radius: 15px;
+    margin: 0 auto;
 }
 
 #cover-button h3 {
@@ -162,20 +161,21 @@ body {
 
 .container {
     height: 755px;
+    width: 100%;
 }
 
 .container h2 {
+    font-size: 300%;
     text-transform: uppercase;
     letter-spacing: 2px;
-    font-size: 300%;
     text-align: center;
     top: 42px;
     position: relative;
 }
 
 .container p {
-    text-transform: none;
     font-size: 105%;
+    text-transform: none;
     text-align: center;
     top: 48px;
     position: relative;
@@ -187,38 +187,33 @@ body {
     justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
-    height: 700px;
-    width: 1100px;
-    margin: 0 auto;
-    position: relative;
+    height: 670px;
+    max-width: 1100px;
+    margin: auto;
 }
 
 .plan-items {
-    max-width: 300px;
     text-align: center;
-    bottom: 10px;
-    position: relative;
+    max-width: 350px;
 }
 
 .plan-items img {
-    height: 350px;
-    width: 350px;
+    max-height: 350px;
+    max-width: 350px;
     border-radius: 15px;
-    right: 26px;
-    position: relative;
 }
 
 .plan-items h3 {
-    text-transform: uppercase;
     font-size: 160%;
     font-weight: bolder;
+    text-transform: uppercase;
     letter-spacing: 1px;
     padding-top: 20px;
 }
 
 .plan-items p {
-    text-align: justify;
     font-size: 80%;
+    text-align: justify;
     top: 20px;
 }
 
@@ -264,13 +259,13 @@ body {
     align-items: center;
     flex-wrap: wrap;
     height: 450px;
-    width: 1200px;
+    max-width: 1200px;
     margin: 0 auto;
 }
 
 .steps-items {
     text-align: center;
-    width: 350px;
+    max-width: 350px;
     margin: auto;
     top: 25px;
     position: relative;
@@ -278,8 +273,8 @@ body {
 
 .steps-items h3 {
     font-size: 160%;
-    text-transform: uppercase;
     font-weight: bolder;
+    text-transform: uppercase;
     letter-spacing: 1px;
     padding-top: 30px;
 }
@@ -296,12 +291,12 @@ body {
 
 .circle-number {
     background-color: #00473c;
+    font-family: 'Shadows Into Light', sans-serif;
     color: #FFF9EA;
+    font-size: 250%;
     height: 200px;
     width: 200px;
     border-radius: 50%;
-    font-family: 'Shadows Into Light', sans-serif;
-    font-size: 250%;
     margin: 0 auto;
 }
 
@@ -323,49 +318,50 @@ body {
 #chef-container {
     background-color: #FFF9EA;
     height: 795px;
+    width: 100%;
 }
 
 #chef-box {
-    width: 1600px;
-    margin: 0 auto;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    height: 795px;
+    max-width: 1600px;
+    margin: 0 auto;
 }
 
 #text-items {
-    text-align: justify;
-    width: 67%;
-    margin-left: 25px;
+    text-align: start;
+    max-height: 795px;
+    width: 65%;
+    margin: 40px 0 25px 25px;
 }
 
 #text-items > h2 {
     font-size: 350%;
     text-transform: uppercase;
     letter-spacing: 2px;
-    top: 42px;
-    position: relative;
+    text-align: justify;
 }
 
 #text-items p {
     font-size: 140%;
     line-height: 200%;
     letter-spacing: 2px;
-    top: 48px;
-    position: relative
+    text-align: justify;
 }
 
 #portrait-items {
-    width: 30%;
+    max-width: 30%;
+    text-align: center;
+    margin: auto;
 }
 
 #portrait-items img {
-    max-height: 650px;
-    max-width: 550px;
+    max-height: 90%;
+    max-width: 90%;
     border-radius: 15px;
-    top: 70px;
-    left: 60px;
-    position: relative;
+    margin: 0 auto;
 }
 
 /* Our Story button hover effect */
@@ -375,8 +371,6 @@ body {
     border-radius: 13px;
     height: 37px;
     width: 160px;
-    top: 70px;
-    position: relative;
 }
 
 #story-button h3 {
@@ -408,10 +402,10 @@ body {
 }
 
 .footer-row ul {
-    margin: auto;
-    padding: 20px 0 0;
     list-style-type: none;
     text-align: right;
+    margin: auto;
+    padding: 20px 0 0;
 }
 
 .footer-row ul li {
@@ -426,12 +420,12 @@ body {
 .footer-row ul li:nth-child(3) {float: left;}
 
 .footer-row ul li a {
-    display: inline-block;
     color: #0E150E;
     text-transform: uppercase;
     text-decoration: none;
     font-size: 18px;
     font-weight: 700;
+    display: inline-block;
     padding: 3px 30px;
 }
 
@@ -457,20 +451,18 @@ body {
 }
 
 .plan-heading h2 {
+    font-size: 300%;
     text-transform: uppercase;
     letter-spacing: 2px;
-    font-size: 300%;
     text-align: center;
-    top: 25px;
-    position: relative;
+    padding-top: 24px;
 }
 
 .plan-heading p {
-    text-transform: none;
     font-size: 105%;
+    text-transform: none;
     text-align: center;
-    top: 31px;
-    position: relative;
+    padding-top: 6px;
 }
 
 /* Traditional and vegetarian */
@@ -482,7 +474,7 @@ body {
     align-items: center;
     flex-wrap: wrap;
     height: 485px;
-    width: 1100px;
+    max-width: 1100px;
     margin: 0 auto;
 }
 
@@ -493,7 +485,7 @@ body {
     align-items: center;
     flex-wrap: wrap;
     height: 410px;
-    width: 710px;
+    max-width: 710px;
     margin: 0 auto;
     padding-bottom: 25px;
 }
@@ -512,16 +504,16 @@ body {
 }
 
 .food-items h3 {
-    text-transform: uppercase;
     font-size: 160%;
     font-weight: bolder;
+    text-transform: uppercase;
     letter-spacing: 1px;
     padding-top: 20px;
 }
 
 .food-items p {
-    text-align: justify;
     font-size: 80%;
+    text-align: justify;
     top: 20px;
     position: relative;
 }
@@ -536,7 +528,7 @@ body {
 #personalised-box {
     background-color: #FFE1A8;
     height: 445px;
-    width: 900px;
+    max-width: 900px;
     border-radius: 15px;
     margin: 0 auto;
 }
@@ -544,9 +536,9 @@ body {
 #personalised-box h2 {
     font-size: 200%;
     text-transform: uppercase;
-    border-bottom: 2px dotted #0E150E;
     text-align: center;
     letter-spacing: 2px;
+    border-bottom: 2px dotted #0E150E;
     padding: 30px 30px 30px;
 }
 
@@ -608,25 +600,24 @@ body {
 
 .about-container {
     background-color: #DCE6C1;
-    height: 500px;
+    height: 480px;
 }
 
 #about-box {
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
-    align-items: center;
+    justify-content: space-between;
+    align-items: flex-start;
     flex-wrap: wrap;
-    height: 500px;
-    width: 1200px;
-    margin: 0 auto;    
-    top: 16px;
-    position: relative;
+    height: 480px;
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
 #about-text_items {
-    width: 50%;
-    text-align: justify;
+    max-height: 100%;
+    width: 47%;
+    padding-top: 20px;
 }
 
 #about-text_items h2 {
@@ -634,61 +625,53 @@ body {
     text-transform: uppercase;
     letter-spacing: 2px;
     text-align: center;
-    right: 60px;
-    bottom: 70px;
-    position: relative;
 }
 
 #about-text_items p {
     font-size: 120%;
     letter-spacing: 1px;
-    width: 90%;
-    right: 28px;
-    bottom: 32px;
-    position: relative;
+    text-align: justify;
 }
 
 #about-text_items hr {
-    border-top: 2px dotted #0E150E;
     width: 100%;
-    bottom: 54px;
-    right: 65px;
-    position: relative;
+    border-top: 2px dotted #0E150E;
+    margin: 10px 0 20px ;
 }
 
 #about-image_item {
-    width: 50%;
+    width: 47%;
+    padding-top: 52px;;
 }
 
 #about-image_item img {
-    max-height: 400px;
-    max-width: 700px;
+    max-height: 80%;
+    max-width: 105%;
     border-radius: 25px;
-    bottom: 16px;
-    position: relative;
 }
 
 /* Our goals */
 
 .goals-container {
     background-color: #FFE1A8;
-    height: 505px;
+    height: 480px;
 }
 
 #goals-box {
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
-    align-items: center;
+    justify-content: space-between;
+    align-items: flex-start;
     flex-wrap: wrap;
-    margin: 0 auto;  
-    height: 505px;
-    width: 1200px;  
+    height: 480px;
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
 #goals-text_items {
-    width: 50%;
-    text-align: justify;
+    max-height: 480px;
+    width: 47%;
+    padding-top: 20px;
 }
 
 #goals-text_items h2 {
@@ -696,38 +679,30 @@ body {
     text-transform: uppercase;
     letter-spacing: 2px;
     text-align: center;
-    left: 66px;
-    bottom: 80px;
-    position: relative;
 }
 
 #goals-text_items p {
     font-size: 120%;
     letter-spacing: 1px;
-    width: 90%;
-    left: 100px;
-    bottom: 44px;
-    position: relative;
+    text-align: justify;
 }
 
 #goals-text_items hr {
-    border-top: 2px dotted #0E150E;
     width: 100%;
-    bottom: 65px;
-    left: 65px;
-    position: relative;
+    border-top: 2px dotted #0E150E;
+    margin: 10px 0 20px ;
 }
 
 #goals-image_item {
-    width: 50%;
+    width: 47%;
+    text-align: center;
+    padding-top: 52px;
 }
 
 #goals-image_item img {
-    max-height: 400px;
-    max-width: 700px;
+    max-height: 75%;
+    max-width: 100%;
     border-radius: 25px;
-    top: 2px;
-    position: relative;
 }
 
 /* CONTACT PAGE */
@@ -740,9 +715,9 @@ body {
 }
 
 #contact-heading h2 {
+    font-size: 300%;
     text-transform: uppercase;
     letter-spacing: 2px;
-    font-size: 300%;
     text-align: center;
 }
 
@@ -751,46 +726,42 @@ body {
 .contact-container {
     background-color: #DCE6C1;
     height: 958px;
+    width: 100%;
 }
 
 .contact-box {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
-    text-align: center;
+    justify-content: center;
+    align-items: flex-start;
     flex-wrap: wrap;
     height: 808px;
-    width: 1200px;
+    max-width: 1080px;
     margin: 0 auto;    
 }
 
 #contact-img_item {
-    width: 50%;
-    top: 36px;
-    position: relative;
+    width: 45%;
+    padding-top: 66.5px;
 }
 
 #contact-img_item img {
     max-height: 675px;
     max-width: 700px;
     border-radius: 25px;
-    top: 30px;
-    position: relative;
 }
 
 .contact-form_item {
-    width: 50%;
-    text-align: left;
-    top: 25px;
-    position: relative;
+    width: 49%;
+    padding-left: 20px;
+    margin-top: 26px;
 } 
 
 .contact-form_item h2 {
     font-size: 260%;
     text-transform: uppercase;
     letter-spacing: 2px;
-    left: 50px;
-    position: relative;
+    text-align: center;
 }
 
 .contact-form_item p {
@@ -815,22 +786,22 @@ body {
 .text-input {
     background-color: #FFF9EA;
     color: #0E150E;
+    height: 40px;
+    width: 515px;
     border-radius: 10px;
     border: 1px solid #0E150E;
     padding-left: 5px;
-    height: 40px;
-    width: 515px;
 }
 
 .message-box {
     background-color: #FFF9EA;
     color: #0E150E;
+    height: 110px;
+    width: 515px;
     border-radius: 10px;
     border: 1px solid #0E150E;
     padding-top: 10px;
     padding-left: 5px;
-    height: 110px;
-    width: 515px;
     bottom: 16px;
     position: relative;
 }
@@ -852,9 +823,9 @@ body {
 
 .submit-button_box {
     background-color: #0E150E;
-    border-radius: 12px;
     height: 32px;
     width: 120px;
+    border-radius: 12px;
     margin-top: 10px;
     top: 5px;
     left: 200px;
@@ -886,40 +857,36 @@ body {
 #thanks-heading {
     background-color: #FFF9EA;
     height: 150px;
+    text-align: center;
 }
 
 #thanks-heading h2 {
     text-transform: uppercase;
     letter-spacing: 2px;
     font-size: 320%;
-    text-align: center;
-    top: 35px;
-    position: relative;
+    padding-top: 30px;
 }
 
 /* Thank you */
 
 .thanks-text_item {
-    width: 50%;
-    text-align: left;
-    top: 25px;
-    position: relative;
+    width: 49%;
+    margin-left: 20px;
+    margin-top: 20px;
 }
 
 .thanks-text_item h2 {
     font-size: 260%;
     text-transform: uppercase;
     letter-spacing: 2px;
-    left: 125px;
-    position: relative;
+    text-align: center;
+    padding-bottom: 20px;
 }
 
 .thanks-text_item p {
     font-size: 140%;
     width: 520px;
     text-align: justify;
-    top: 20px;
-    position: relative;
 }
 
 .thanks-text_item a {
