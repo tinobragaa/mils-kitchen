@@ -926,3 +926,58 @@ body {
         padding-left: 0;
     }
 }
+
+/* 1025px wide and down */
+
+@media screen and (max-width: 1025px) {
+    .second-container {
+        height: 950px;
+    }
+
+    #steps-box {
+        padding-top: 35px;
+    }
+
+    .steps-items {
+        padding: 30px 87px;
+    }
+
+    #chef-container {
+        height: 1310px;
+    }
+
+    #chef-box {
+        align-items: center;
+    }
+
+    #text-items {
+        width: 95%;
+    }
+
+    #portrait-items {
+        min-width: 50%;
+    }
+
+    .contact-container {
+        height: 1750px;
+    }
+
+    .contact-box {
+        height: 1500px;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #contact-img_item {
+        width: 100%;
+    }
+
+    .contact-form_item p {
+        width: 514px;
+    }
+
+    #submit-button {
+        left: 0;   
+    }
+}
