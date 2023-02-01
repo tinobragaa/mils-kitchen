@@ -473,7 +473,7 @@ body {
     align-items: center;
     flex-wrap: wrap;
     height: 485px;
-    max-width: 1100px;
+    max-width: 1000px;
     margin: 0 auto;
 }
 
@@ -484,7 +484,7 @@ body {
     align-items: center;
     flex-wrap: wrap;
     height: 410px;
-    max-width: 710px;
+    max-width: 650px;
     margin: 0 auto;
     padding-bottom: 25px;
 }
@@ -753,9 +753,13 @@ body {
 }
 
 .contact-form_item {
-    width: 49%;
+    max-width: 49%;
     padding-left: 20px;
     margin-top: 26px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 } 
 
 .contact-form_item h2 {
@@ -897,4 +901,28 @@ body {
 
 .thanks-text_item a:hover {
     border-bottom: 1px solid #0E150E;
+}
+
+/* Media queries */
+
+/* 1200px wide and down */
+
+@media screen and (max-width: 1170px) {
+    .container {
+        height: 1345px;
+    }
+
+    #plans-box {
+        height: 100px;
+        padding-top: 70px;
+    }
+
+    .plan-items {
+        height: 540px;
+        padding: 20px 62.2px;
+    }
+
+    .contact-form_item {
+        padding-left: 0;
+    }
 }
