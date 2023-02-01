@@ -66,6 +66,11 @@ body {
 .nav-row ul li:nth-child(1) {float: left;}
 .nav-row ul li:nth-child(2) {float: left;}
 
+.item-three_position {
+    left: 10px;
+    position: relative;
+}
+
 .nav-row ul li a {
     color: #0E150E;
     font-size: 18px;
@@ -187,21 +192,22 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    align-items: center;
+    align-items: start;
     flex-wrap: wrap;
-    height: 670px;
-    max-width: 1100px;
-    margin: auto;
+    height: 560px;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-top: 80px;
 }
 
 .plan-items {
     text-align: center;
+    max-height: 350px;
     max-width: 350px;
 }
 
 .plan-items img {
-    max-height: 350px;
-    max-width: 350px;
+    width: 100%;
     border-radius: 15px;
 }
 
@@ -268,7 +274,7 @@ body {
 .steps-items {
     text-align: center;
     max-width: 350px;
-    margin: auto;
+    margin: 0 10px;
     top: 25px;
     position: relative;
 }
@@ -428,6 +434,10 @@ body {
     font-weight: 700;
     display: inline-block;
     padding: 3px 30px;
+}
+
+.mobile-disappear {
+    float: right;
 }
 
 /* Footer link hover effect */
@@ -892,7 +902,7 @@ body {
 
 .thanks-text_item p {
     font-size: 140%;
-    width: 520px;
+    width: 100%;
     text-align: justify;
 }
 
@@ -915,7 +925,7 @@ body {
     }
 
     #plans-box {
-        height: 100px;
+        height: 1160px;
         padding-top: 70px;
     }
 
@@ -932,18 +942,7 @@ body {
 /* 1025px wide and down */
 
 @media screen and (max-width: 1025px) {
-    .second-container {
-        height: 950px;
-    }
-
-    #steps-box {
-        padding-top: 35px;
-    }
-
-    .steps-items {
-        padding: 30px 87px;
-    }
-
+    
     #chef-container {
         height: 1310px;
     }
@@ -1006,18 +1005,27 @@ body {
     }
 
     .container {
-        height: 1920px;
+        height: 1900px;
+    }
+
+    #plans-box {
+        height: 1700px;
+        padding-top: 70px;
     }
 
     .second-container {
-        height: 1370px;
+        height: 1018px;
+    }
+
+    #steps-box {
+        height: 900px;
     }
 
     #text-items {
         margin: 40px 25px 25px 25px;
     }
 
-    .plansp-container {
+    /* .plansp-container {
         height: 2500px;
     }
 
@@ -1058,7 +1066,7 @@ body {
     #contact-heading h2 {
         font-size: 250%;
         padding-top: 10px;
-    }
+    } */
 }
 
 /* 650px wide and down */
@@ -1077,6 +1085,10 @@ body {
         padding-right: 10px;
     }   
 
+    .container {
+        height: 1840px;
+    }
+
     .container h2 {
         font-size: 250%;
     }
@@ -1085,8 +1097,25 @@ body {
         font-size: 80%;
     }
 
+    #plans-box {
+        padding: 50px 0;
+    }
+
+    .second-container {
+        height: 1400px;
+    }
+
+    #steps-box {
+        height: 1250px;
+        margin: 0 10px;
+    }
+
+    .plan-items {
+        padding: 10px 10px;
+    }
+
     #chef-container {
-        height: 1150px;
+        height: 1000px;
     }
 
     #text-items p {
@@ -1101,15 +1130,43 @@ body {
         margin: 40px 10px 25px 10px;
     }
 
+    .mobile-disappear {
+        display: none;
+    }
+
+    .center-icons {
+        display: flex;
+        justify-content: center;
+    }
+}
+
+/* 417px wide and down */
+
+@media screen and (max-width: 417px) {
+
+    .nav-row ul li a {
+        font-size: 40%;
+        padding: 3px 2px;
+    }
+
+    .itens-left {
+        padding-left: 5px;
+    }
+
+    .itens-right {
+        padding-right: 5px;
+    }   
+
+    #cover-text {
+        font-size: 170%;
+        height: 390px;
+        margin: 5px;
+    }
     .container {
-        height: 1840px;
+        height: 1900px;
     }
 
-    #plans-box {
-        padding: 50px 0;
-    }
-
-    .plan-items {
-        padding: 10px 10px;
+    #chef-container {
+        height: 1060px;
     }
 }
