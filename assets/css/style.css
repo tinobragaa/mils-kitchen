@@ -6,6 +6,7 @@
     margin: 0;
     padding: 0;
     border: none;
+
 }
 
 body {
@@ -17,7 +18,7 @@ body {
 
 .main-container {
     width: 100%; 
-    margin: 0 auto; 
+    margin: auto; 
 }
 
 /* Home page */
@@ -111,10 +112,6 @@ body {
     align-items: center;
 }
 
-#cover-text h2 {
-    padding: 20px 25px;
-}
-
 #cover-text {
     background-color: #CAF0EA;
     color: #0E150E;
@@ -122,11 +119,16 @@ body {
     text-transform: uppercase;
     text-align: center;
     height: 450px;
-    width: 400px;
+    max-width: 400px;
     border-radius: 15px;
     float: left;
     margin: 0 75px;
-    position: relative;
+    position: static;
+}
+
+
+#cover-text h2 {
+    padding: 20px 25px;
 }
 
 /* Cover button hover effect */
@@ -134,7 +136,7 @@ body {
 #cover-button {
     background-color: #0E150E;
     height: 40px;
-    width: 230px;
+    max-width: 230px;
     border-radius: 15px;
     margin: 0 auto;
 }
@@ -1056,5 +1058,58 @@ body {
     #contact-heading h2 {
         font-size: 250%;
         padding-top: 10px;
+    }
+}
+
+/* 650px wide and down */
+
+@media screen and (max-width: 650px) {
+    .nav-row ul li a {
+        font-size: 50%;
+        padding: 3px 8px;
+    }
+
+    .itens-left {
+        padding-left: 10px;
+    }
+
+    .itens-right {
+        padding-right: 10px;
+    }   
+
+    .container h2 {
+        font-size: 250%;
+    }
+
+    .container p {
+        font-size: 80%;
+    }
+
+    #chef-container {
+        height: 1150px;
+    }
+
+    #text-items p {
+        font-size: 100%;
+    }
+
+    #text-items > h2 {
+        font-size: 250%;
+    }
+
+    #text-items {
+        margin: 40px 10px 25px 10px;
+    }
+
+    .container {
+        height: 1840px;
+    }
+
+    #plans-box {
+        padding: 50px 0;
+    }
+
+    .plan-items {
+        padding: 10px 10px;
     }
 }
