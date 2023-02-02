@@ -948,6 +948,7 @@ form {
 
     #contact-img_item {
         padding: 50px 20px 20px;
+        width: 70%;
     }
 
     .contact-form_item {
@@ -960,10 +961,6 @@ form {
 
     #thanks-heading h2 {
         font-size: 280%;
-    }
-
-    .contact-form_item {
-        width: 70%;
     }
 }
 
@@ -1249,6 +1246,7 @@ form {
 
     #thanks-heading h2 {
         font-size: 220%;
+        padding-top: 5px;
     }
 
     .thanks-text_item h2 {
