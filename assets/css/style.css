@@ -484,7 +484,6 @@ body {
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
-    height: 485px;
     max-width: 1000px;
     margin: 0 auto;
 }
@@ -495,17 +494,14 @@ body {
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
-    height: 410px;
     max-width: 650px;
     margin: 0 auto;
-    padding-bottom: 25px;
 }
 
 .food-items {
     max-width: 300px;
     text-align: center;
-    bottom: 10px;
-    position: relative;
+    padding: 40px 0;
 }
 
 .food-items img {
@@ -533,15 +529,14 @@ body {
 
 .personalised-container {
     background-color: #FFF9EA;
-    height: 640px;
 }
 
 #personalised-box {
     background-color: #FFE1A8;
-    height: 445px;
     max-width: 900px;
     border-radius: 15px;
-    margin: 0 auto;
+    margin: 10px auto 50px auto;
+    padding-bottom: 20px;
 }
 
 #personalised-box h2 {
@@ -557,7 +552,7 @@ body {
     font-size: 140%;
     text-align: justify;
     letter-spacing: 1px;
-    padding: 30px 80px;
+    padding: 20px 80px 10px;
 }
 
 /* Order now button */
@@ -568,7 +563,6 @@ body {
     height: 37px;
     width: 160px;
     margin: 0 auto;
-    position: relative;
 }
 
 .order-button h3 {
@@ -1025,7 +1019,7 @@ body {
         margin: 40px 25px 25px 25px;
     }
 
-    /* .plansp-container {
+    .plansp-container {
         height: 2500px;
     }
 
@@ -1047,7 +1041,7 @@ body {
     #personalised-box p {
         font-size: 80%;
     }
-
+/* 
     #goals-text_items p, #about-text_items p {
         font-size: 100%;
     }
@@ -1140,9 +1134,9 @@ body {
     }
 }
 
-/* 417px wide and down */
+/* 450px wide and down */
 
-@media screen and (max-width: 417px) {
+@media screen and (max-width: 450px) {
 
     .nav-row ul li a {
         font-size: 40%;
@@ -1168,5 +1162,21 @@ body {
 
     #chef-container {
         height: 1060px;
+    }
+
+    .food-items {
+        padding: 5px 50px;
+    }
+
+    .food-items img {
+        width: 100%;
+    }
+
+    .plan-heading h2 {
+        font-size: 260%;
+    }
+
+    .food-items h3 {
+        font-size: 130%;
     }
 }
