@@ -47,36 +47,28 @@
                 </div>
                 <div class="contact-form_item">
                     <h2>Place your order</h2>
-                    <p>Give yourself a break from the kitchen. Fill out the form with your information, select a plan and we will reach out to finish your order.</p>
                     <form action="thanks.html" method="GET">
+                        <p>Give yourself a break from the kitchen. Fill out the form with your information, select a plan and we will reach out to finish your order.</p>
                         <label for="full-name">Full Name*</label>
-                        <br>
                         <input id="full-name" type="text" name="full_name" placeholder="Your full name" class="text-input" required>
-                        <br>
                         <label for="phone-number">Phone*</label>
-                        <br>
                         <input id="phone-number" type="text" name="phone_number" placeholder="Your contact number" class="text-input" required>
-                        <br>
                         <label for="email">Email Address*</label>
-                        <br>
                         <input id="email" type="email" name="email_address" placeholder="Your email" class="text-input" required>
-                        <br>
                         <label for="plans">Choose a Plan*</label> 
-                        <br>
                         <input id="plans" type="text" name="plan_choice" list="plans-options" placeholder="Select one" class="text-input">
-                        <br>
                         <datalist id="plans-options">
                             <option value="Traditional">
                             <option value="Vegetarian">
                             <option value="Personalised">
                         </datalist>
-                        <label for="message"></label>
-                        <div id="informative-box_text"><p>Tell us how would you like your meals, don't forget to mention if you have any kind of allergies*</p></div>
-                        <textarea id="message" name="message" cols="30" rows="10" placeholder="Tell us what you want, the more information the better!" class="message-box"></textarea>
-                        <br>
+                        <div id="informative-box_text">
+                            <label for="message"></label>
+                            <p>Tell us how would you like your meals, don't forget to mention if you have any kind of allergies*</p>
+                            <textarea id="message" name="message" cols="30" rows="10" placeholder="Tell us what you want, the more information the better!" class="message-box"></textarea>
+                        </div>
                         <label for="supportive-doc">Upload your diet plan:</label>
                         <input id="supportive-doc" type="file" name="supportive_image" accept=".png, .jpeg, .pdf, .doc" class="upload-button" multiple>
-                        <br>
                         <div class="submit-button_box">
                             <input type="submit" value="Order Now!" id="submit-button">
                         </div>
