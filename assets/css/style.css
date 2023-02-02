@@ -898,6 +898,20 @@ form {
     border-bottom: 1px solid #0E150E;
 }
 
+/* Error Page */
+
+.error-page {
+    background-color: #CAF0EA;
+    color: #0E150E;
+    font-size: 80%;
+    text-transform: uppercase;
+    text-align: center;
+    height: 450px;
+    max-width: 400px;
+    border-radius: 15px;
+    margin: 0 auto;
+}
+
 /* Media queries */
 
 /* 1200px wide and down */

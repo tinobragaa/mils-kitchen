@@ -166,7 +166,7 @@ To keep the user interface easy and smooth as possible, I choose the sticky nav 
 
 The website contains 6 pages including the 404 page and 13 sections. 
 
-### Sticky Navigation Bar
+### Sticky Navigation Bar - Stylish Button
 - Sticky Navigation Bar
 - Camouflaged color creating an stylish effect 
 - Shows on every page
@@ -184,6 +184,19 @@ The website contains 6 pages including the 404 page and 13 sections.
 <br>
 
 ![Camouflaged Effect](docs/camouflaged-effect.jpg)
+
+</details>
+<br>
+
+### Hoover Border Effect
+- Every link across the website has a border when its hoovered
+- The border stays activated when you are inside the clicked page
+</details>
+<details>
+<summary>Hoover Border Effect</summary>
+<br>
+
+![Hoover Border Effect](docs/hoover-border.jpg)
 
 </details>
 <br>
@@ -219,7 +232,7 @@ The website contains 6 pages including the 404 page and 13 sections.
 
 </details>
 <details>
-<summary>Camouflaged Effect</summary>
+<summary>Stylish Button</summary>
 <br>
 
 ![Stylish Button](docs/stylish-button.jpg)
@@ -227,11 +240,22 @@ The website contains 6 pages including the 404 page and 13 sections.
 </details>
 <br>
 
+### Select Your Plan Section
+- Guide the user through the plans option
+- Plan explanation
+- Link to see the weekly dish 
+<details>
+<summary>Select Your Plan Section</summary>
+<br>
 
-### Hoover Explanation Circles
+![Select Your Plan Section](docs/select-section.jpg)
+
+</details>
+<br>
+
+### How It Works Section
 - Caught user eyes while explaining the process, enhancing their experience
 - Hoover effect for stylish effect
-</details>
 <details>
 <summary>Hoover Explanation Circles </summary>
 <br>
@@ -241,87 +265,87 @@ The website contains 6 pages including the 404 page and 13 sections.
 </details>
 <br>
 
-### Hoover Border Effect
-- Every link across the website has a border when its hoovered
-- The border stays activated when you are inside the clicked page
+### Meet The Chef Section
+- Meet the chef behind the curtains
+- Explore the company history ad ethos
+<details>
+<summary>Meet The Chef Section</summary>
+<br>
+
+![Meet The Chef Section](docs/chef-section.jpg)
+
+</details>
+<br>
+
+### Plans Page
+- Showcase the weekly food
+- Explanation of the personalised plan
+- Stylish button in the same layout of the home page
+<details>
+<summary>Traditional Section</summary>
+<br>
+
+![Traditional Section](docs/traditi-plan.jpeg)
+
 </details>
 <details>
-<summary>Hoover Border Effect</summary>
+<summary>Vegetarian Section</summary>
 <br>
 
-![Hoover Border Effect](docs/circle-hoover.jpg)
+![Vegetarian Section](docs/vegeta-plan.jpeg)
+
+</details>
+<details>
+<summary>Personalised Section</summary>
+<br>
+
+![Personalised Section](docs/persona-plan.jpeg)
 
 </details>
 <br>
 
+### About Page
+- Meet the chef behind the curtains in details
+- Learn the company history ad ethos
+<details>
+<summary>About Page</summary>
+<br>
 
+![About Page](docs/about-page.jpeg)
 
-### Why Choose Us?
-- Explains how the site differs from competitors
-- Provides users more info about the products
-- User Stories: 1, 7, 13
-<details><summary>Why Choose Us</Summary>
-<img src="docs/features/WhyChooseUs.png">  
 </details>
+<br>
 
-### History
-- Gives the user an explanation of the company/website
-- Tells the personal story of the companies creation
-- User Stories: 2, 7
-<details><summary>History</Summary>
-<img src="docs/features/History.png">  
+### Order Page
+- Form to order
+- Succesfull message for submitted form
+<details>
+<summary>Form Section</summary>
+<br>
+
+![Form Section](docs/form-section.jpeg)
+
 </details>
+<details>
+<summary>Thank You Message</summary>
+<br>
 
-### Boards
-- Allows users to see all products available
-- Located on the Boards page
-- User Stories: 1, 3, 12, 13
-<details><summary>Boards</Summary>
-<img src="docs/features/Boards.png">  
+![Thank You Message](docs/thanks-section.jpeg)
+
 </details>
+<br>
 
-### Products
-- Shows the user the individual info for each product
-- Allows them to purchase the item
-- Located on the boards page
-- User Stories: 1, 3, 12, 13
-<details><summary>Products</Summary>
-<img src="docs/features/Products.png">  
+### Footer
+- Social media links
+- Pages links
+<details>
+<summary>Footer</summary>
+<br>
+
+![Footer](docs/footer-bar.jpeg)
+
 </details>
-
-### Contact form
-- Allows users to contact the site owner/company
-- Can be used to chase up an order
-- Located on the contact page
-- User Stories: 6, 9
-<details><summary>Contact Form</Summary>
-<img src="docs/features/ContactForm.png">  
-</details>
-
-### Google Map
-- Shows the location of the physical store on a google maps window
-- Located on the contact page
-- User Stories: 2, 9, 11
-<details><summary>Google Map</Summary>
-<img src="docs/features/GoogleMap.png">  
-</details>
-
-### Address
-- Provides the physical store location
-- Located above the google map
-- User Stories: 2, 9, 11
-<details><summary>Address</Summary>
-<img src="docs/features/Address.png">  
-</details>
-
-### 404 page
-- Redirects the user to a working page
-- Explains what the issue is
-- User Stories: 8, 15
-<details><summary>404 Page</Summary>
-<img src="docs/features/404page.png">  
-</details>
-
+<br>
 
 # Future Features
 
@@ -361,6 +385,40 @@ The following frameworks and tools were used to develop the website:
 - W3C Markup Validation Service
 
 # Testing
+
+## HTML Validation
+
+The Nu HTML Checker (W3C) is used to validate HTML documents. The only Error indicated that "div" s not allowed as child of element "ul." 
+
+## CSS Validation
+
+The W3C Jigsaw CSS Validation Service is used to validate CSS documents. The page passed without any errors.
+
+## Accessibility
+
+The WAVE web accessibility evaluation tool by WebAIM was used to ensure the webpages met accessibility standards. All 5 pages passed without any errors.
+
+Responsive test on multiple devices
+The following devices were used to ensure the site was responsive:
+
+- Macbook Pro
+- Iphone 14 Pro Max
+- Iphone 13 Pro
+- Ipad Pro
+- Galaxy S20
+- Notebook Acer Predator Helios 300
+
+# Bugs
+The Nu HTML Checker (W3C) is used to validate HTML documents. The only Error indicated that "div" s not allowed as child of element "ul." I decided to maintain this because when applied to the "li" element the effect doesn't work as intended.
+
+Bug: A white bar appeared on the right side of the screen on responsive tests when under 400px
+Fix: The padding of certain elements were larger than the page. The width was changed to a % number.
+
+Bug: The sticky navigation bar wasn't working.
+Fix: Added a container wrapping all the others.
+
+Bug: The HTML validation indicated that "div" s not allowed as child of element "ul."
+Fix: I applied the class on the li instead.
 
 # Deployment
 
