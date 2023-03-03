@@ -30,14 +30,16 @@ Mil's Kitchen is a small business created by a Brazilian chef with the mission o
     + [Sticky Navigation Bar - Stylish Button](#sticky-navigation-bar---stylish-button)
     + [Hoover Border Effect](#hoover-border-effect)
     + [Icons](#icons)
+    + [Favicon Branding](#favicon-branding)
     + [Home Page Hero Image Section - Stylish Button](#home-page-hero-image-section---stylish-button)
     + [Home Page Select Your Plan Section](#home-page-select-your-plan-section)
     + [Home Page How It Works Section](#home-page-how-it-works-section)
-    + [Home Page Meet The Chef Section](#home-page-meet-the-chef-section)
+    + [Home Page Meet The Chef Section - Stylish Button](#home-page-meet-the-chef-section---stylish-button)
     + [Plans Page](#plans-page)
     + [About Page](#about-page)
     + [Order Page](#order-page)
     + [Footer](#footer)
+    + [404 Error Page](#404-error-page)
 - [Future Features](#future-features)
   * [Hamburguer Menu](#hamburguer-menu)
   * [Our Food Display](#our-food-display)
@@ -271,6 +273,17 @@ The website contains 6 pages (home page, plans page, about page, contact page, f
 </details>
 <br>
 
+### Favicon Branding
+- Favicon inspired in the Chef Mil. Keep up with branding and high design.
+<details>
+<summary>Favicon Branding</summary>
+<br>
+
+![Favicon Branding](docs/favicon-logo-mil.jpg)
+
+</details>
+<br>
+
 ### Home Page Hero Image Section - Stylish Button
 - Makes the website more appealing and professional looking
 - Stylish eye catching button with hoover effect
@@ -294,12 +307,19 @@ The website contains 6 pages (home page, plans page, about page, contact page, f
 ### Home Page Select Your Plan Section
 - Guide the user through the plans option
 - Plan explanation
-- Link to see the weekly dish 
+- Link to see the weekly dish and understand the plan. When vegetarian, personalised or traditional link is clicked it loads the correspondent local in the browser flow.
 <details>
 <summary>Select Your Plan Section</summary>
 <br>
 
 ![Select Your Plan Section](docs/select-section.jpg)
+
+</details>
+<details>
+<summary>Inner Hyperlinks</summary>
+<br>
+
+![Inner Hyperlinks](docs/inner-links.jpg)
 
 </details>
 <br>
@@ -316,7 +336,7 @@ The website contains 6 pages (home page, plans page, about page, contact page, f
 </details>
 <br>
 
-### Home Page Meet The Chef Section
+### Home Page Meet The Chef Section - Stylish Button
 - Meet the chef behind the curtains
 - Explore the company history ad ethos
 <details>
@@ -326,12 +346,20 @@ The website contains 6 pages (home page, plans page, about page, contact page, f
 ![Meet The Chef Section](docs/chef-section.jpg)
 
 </details>
+<details>
+<summary>Stylish Button</summary>
 <br>
+
+![Stylish Button](docs/mtc-stylish-button.jpg)
+
+</details>
+<br>
+
 
 ### Plans Page
 - Showcase the weekly food
 - Explanation of the personalised plan
-- Stylish button in the same layout of the home page
+- Stylish buttons in the same layout of the home page to mantain the design organic
 <details>
 <summary>Traditional Section</summary>
 <br>
@@ -353,6 +381,13 @@ The website contains 6 pages (home page, plans page, about page, contact page, f
 ![Personalised Section](docs/persona-plan.jpeg)
 
 </details>
+<details>
+<summary>Stylish Buttons</summary>
+<br>
+
+![Stylish Buttons](docs/plans-stylish-button.jpg)
+
+</details>
 <br>
 
 ### About Page
@@ -369,7 +404,10 @@ The website contains 6 pages (home page, plans page, about page, contact page, f
 
 ### Order Page
 - Form to order
+- Shadow behind the input text to reinforce that is selected
+- Stylish Button
 - Succesfull message for submitted form
+- Input required to avoid mistakes and poor experience
 <details>
 <summary>Form Section</summary>
 <br>
@@ -384,6 +422,27 @@ The website contains 6 pages (home page, plans page, about page, contact page, f
 ![Thank You Message](docs/thanks-section.jpeg)
 
 </details>
+<details>
+<summary>Stylish Button</summary>
+<br>
+
+![Stylish Button](docs/cntct-stylish-button.jpg)
+
+</details>
+<details>
+<summary>Input Shadow</summary>
+<br>
+
+![Input Shadow](docs/cntct-focus-text.jpg)
+
+</details>
+<details>
+<summary>Input Required</summary>
+<br>
+
+![Input Required](docs/cntct-input-required.jpg)
+
+</details>
 <br>
 
 ### Footer
@@ -394,6 +453,17 @@ The website contains 6 pages (home page, plans page, about page, contact page, f
 <br>
 
 ![Footer](docs/footer-bar.jpeg)
+
+</details>
+<br>
+
+### 404 Error Page
+- Page that redirects broken links
+<details>
+<summary>404 Error Page</summary>
+<br>
+
+![404 Error Page](docs/error-page.jpg)
 
 </details>
 <br>
@@ -477,14 +547,14 @@ The website was deployed through the use of GitHub Pages, a feature built in to 
 
 To contribute or check the code yourself, you can fork or clone the repository as well.
 
-## Fork
+### Fork
 1. Go to the desired repository
 2. Click "Fork" in the upper right corner
 3. Select the owner, and set the repository name. A description can be added if desired
 4. Choose whether to copy the default branch, or all branches
 5. Click "Create Form"
 
-## Clone
+### Clone
 
 1. Go to the desired repository
 2. Click the "Code" button at the top of the files section of the page
@@ -523,7 +593,6 @@ A list of references used for the site:
 
 I would like to take this opportunity to acknowledge and thank the following people:
 
-- My mentor, Brian, for our sessions and advices.  
 - My actual manager, Saoirse, for letting me study.
 - A big thank you for everybody on Code Institute's Slack Channels.
 - My friend Dion, who is a front end developer and for the insights given. 
