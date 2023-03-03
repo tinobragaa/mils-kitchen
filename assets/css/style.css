@@ -411,7 +411,6 @@ body {
     list-style-type: none;
     text-align: right;
     margin: auto;
-    padding: 20px 0 0;
 }
 
 .footer-row ul li {
@@ -435,8 +434,14 @@ body {
     padding: 3px 30px;
 }
 
+.center-icons {
+    position: relative;
+    top: 23px;
+}
+
 .mobile-disappear {
     float: right;
+    padding-top: 20px;
 }
 
 /* Footer link hover effect */
