@@ -936,8 +936,14 @@ form {
         padding: 20px 62.2px;
     }
 
+    #contact-img_item {
+        padding: 50px 20px 20px;
+        width: 70%;
+    }
+
     .contact-form_item {
         padding-left: 0;
+        width: 80%;
     }
 }
 
@@ -963,11 +969,6 @@ form {
 
     #portrait-items {
         min-width: 50%;
-    }
-
-    #contact-img_item {
-        padding: 50px 20px 20px;
-        width: 70%;
     }
 
     .contact-form_item {
@@ -1234,7 +1235,7 @@ form {
         font-size: 170%;
         height: 390px;
     }
-    
+
     .container {
         height: 1900px;
     }
