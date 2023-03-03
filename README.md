@@ -400,28 +400,28 @@ The website contains 6 pages (home page, plans page, about page, contact page, f
 
 # Future Features
 
-A few features that could make the website even better. They are listed here.
+A few features that could make the website even better are listed here.
 
-## Hamburguer Menu
+### Hamburguer Menu
 
 Add hamburger menu for screen of 950px wide and down.
 
-## Our Food Display
+### Our Food Display
 
 Add a fith section on the home page show casing the weekly dishs. Updated every week.
 
-## Products Page
+### Products Page
 
 Add another page where it's possible to sell merchandise, condiments, butters and bread (unity).
 
 # Technologies Used
 
-## Languages
+### Languages
 The following languages were used to develop the website:
 - HTML
 - CSS
 
-## Frameworks and Tools
+### Frameworks and Tools
 The following frameworks and tools were used to develop the website:
 - Git
 - Github
@@ -437,15 +437,15 @@ The following frameworks and tools were used to develop the website:
 
 # Testing
 
-## HTML Validation
+### HTML Validation
 
 The Nu HTML Checker (W3C) is used to validate HTML documents. The page passed without any errors.
 
-## CSS Validation
+### CSS Validation
 
 The W3C Jigsaw CSS Validation Service is used to validate CSS documents. The page passed without any errors.
 
-## Accessibility
+### Accessibility
 
 The WAVE web accessibility evaluation tool by WebAIM was used to ensure the webpages met accessibility standards. All 5 pages passed without any errors.
 
