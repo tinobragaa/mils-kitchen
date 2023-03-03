@@ -500,7 +500,7 @@ To contribute or check the code yourself, you can fork or clone the repository a
 
 A list of references used for the site:
 
-## Concepts References
+### Concepts References
 
 * [Farmacy London](https://farmacylondon.com/)
 * [The Butchers Daughter](http://thebutchersdaughter.ie/)
@@ -509,7 +509,7 @@ A list of references used for the site:
 * [Beatnic](https://www.eatbeatnic.com/)
 * [Behance](https://www.behance.net/)
 
-## Coding References and Tutorials
+### Coding References and Tutorials
 
 * [Sticky Navigation Bar](https://codepen.io/Eslam_Refa3y/pen/jONzrza)
 * [Codepen](https://codepen.io/trending)

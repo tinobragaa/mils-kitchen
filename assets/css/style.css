@@ -908,13 +908,22 @@ form {
 .error-page {
     background-color: #CAF0EA;
     color: #0E150E;
-    font-size: 80%;
+    font-size: 120%;
     text-transform: uppercase;
     text-align: center;
-    height: 450px;
-    max-width: 400px;
+    width: 400px;
     border-radius: 15px;
-    margin: 0 auto;
+    padding: 10px;
+    margin: 10px auto 28px;
+}
+
+.error-page a {
+    color: #0E150E;
+    text-decoration: none;
+}
+
+.error-page a:hover {
+    border-bottom: 1px solid #0E150E;
 }
 
 /* Media queries */
