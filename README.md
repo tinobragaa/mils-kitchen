@@ -30,10 +30,10 @@ Mil's Kitchen is a small business created by a Brazilian chef with the mission o
     + [Sticky Navigation Bar - Stylish Button](#sticky-navigation-bar---stylish-button)
     + [Hoover Border Effect](#hoover-border-effect)
     + [Icons](#icons)
-    + [Hero Image - Stylish Button](#hero-image---stylish-button)
-    + [Select Your Plan Section](#select-your-plan-section)
-    + [How It Works Section](#how-it-works-section)
-    + [Meet The Chef Section](#meet-the-chef-section)
+    + [Home Page Hero Image Section - Stylish Button](#home-page-hero-image-section---stylish-button)
+    + [Home Page Select Your Plan Section](#home-page-select-your-plan-section)
+    + [Home Page How It Works Section](#home-page-how-it-works-section)
+    + [Home Page Meet The Chef Section](#home-page-meet-the-chef-section)
     + [Plans Page](#plans-page)
     + [About Page](#about-page)
     + [Order Page](#order-page)
@@ -215,9 +215,9 @@ To keep the user interface easy and smooth as possible, I choose the sticky nav 
 
 # Features
 
-The website contains 6 pages including the 404 page and 13 sections. 
+The website contains 6 pages (home page, plans page, about page, contact page, form submitted page and 404 page) and 12 sections. 
 
-### Sticky Navigation Bar - Stylish Button
+### Sticky Navigation Bar - Camouflaged Effect
 - Sticky Navigation Bar
 - Camouflaged color creating an stylish effect 
 - Shows on every page
@@ -271,7 +271,7 @@ The website contains 6 pages including the 404 page and 13 sections.
 </details>
 <br>
 
-### Hero Image - Stylish Button
+### Home Page Hero Image Section - Stylish Button
 - Makes the website more appealing and professional looking
 - Stylish eye catching button with hoover effect
 - Call to action 
@@ -291,7 +291,7 @@ The website contains 6 pages including the 404 page and 13 sections.
 </details>
 <br>
 
-### Select Your Plan Section
+### Home Page Select Your Plan Section
 - Guide the user through the plans option
 - Plan explanation
 - Link to see the weekly dish 
@@ -304,7 +304,7 @@ The website contains 6 pages including the 404 page and 13 sections.
 </details>
 <br>
 
-### How It Works Section
+### Home Page How It Works Section
 - Caught user eyes while explaining the process, enhancing their experience
 - Hoover effect for stylish effect
 <details>
@@ -316,7 +316,7 @@ The website contains 6 pages including the 404 page and 13 sections.
 </details>
 <br>
 
-### Meet The Chef Section
+### Home Page Meet The Chef Section
 - Meet the chef behind the curtains
 - Explore the company history ad ethos
 <details>
@@ -357,12 +357,12 @@ The website contains 6 pages including the 404 page and 13 sections.
 
 ### About Page
 - Meet the chef behind the curtains in details
-- Learn the company history ad ethos
+- Learn the company history and ethos
 <details>
-<summary>About Page</summary>
+<summary>About Page Sections</summary>
 <br>
 
-![About Page](docs/about-page.jpeg)
+![About Page Sections](docs/about-page.jpeg)
 
 </details>
 <br>
@@ -439,7 +439,7 @@ The following frameworks and tools were used to develop the website:
 
 ## HTML Validation
 
-The Nu HTML Checker (W3C) is used to validate HTML documents. The only Error indicated that "div" s not allowed as child of element "ul." 
+The Nu HTML Checker (W3C) is used to validate HTML documents. The page passed without any errors.
 
 ## CSS Validation
 
@@ -452,24 +452,19 @@ The WAVE web accessibility evaluation tool by WebAIM was used to ensure the webp
 Responsive test on multiple devices
 The following devices were used to ensure the site was responsive:
 
-- Macbook Pro
-- Iphone 14 Pro Max
-- Iphone 13 Pro
 - Ipad Pro
 - Galaxy S20
+- Macbook Pro
+- Iphone 13 Pro
+- Iphone 14 Pro Max
 - Notebook Acer Predator Helios 300
 
 # Bugs
-The Nu HTML Checker (W3C) is used to validate HTML documents. The only Error indicated that "div" s not allowed as child of element "ul." I decided to maintain this because when applied to the "li" element the effect doesn't work as intended.
-
-Bug: A white bar appeared on the right side of the screen on responsive tests when under 400px
-Fix: The padding of certain elements were larger than the page. The width was changed to a % number.
+Bug: A white bar appeared on the right side of the screen on responsive tests when under 400px.
+Fix: The width of certain elements were set in non responsive way through a fixed width (px). The width was changed to %.
 
 Bug: The sticky navigation bar wasn't working.
-Fix: Added a container wrapping all the others.
-
-Bug: The HTML validation indicated that "div" s not allowed as child of element "ul."
-Fix: I applied the class on the li instead.
+Fix: Added a container element wrapping all the others.
 
 # Deployment
 
