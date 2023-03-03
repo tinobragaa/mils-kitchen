@@ -7,6 +7,57 @@ Mil's Kitchen is a small business created by a Brazilian chef with the mission o
 
 [Live Website](https://tinobragaa.github.io/mils-kitchen/)
 
+# Table Of Contents
+
+- [Mil's Kitchen](#mil-s-kitchen)
+- [User Experience (UX)](#user-experience--ux-)
+  * [Business Goals](#business-goals)
+    + [User Goals](#user-goals)
+    + [Website Owner Goals](#website-owner-goals)
+    + [Target Audience](#target-audience)
+    + [User Expectations](#user-expectations)
+  * [User Stories](#user-stories)
+    + [First-Time User](#first-time-user)
+    + [Returning User](#returning-user)
+    + [Site Owner](#site-owner)
+- [Design](#design)
+  * [Wireframes](#wireframes)
+  * [Typography](#typography)
+  * [Colour Palette](#colour-palette)
+  * [Imagery](#imagery)
+  * [Structure](#structure)
+- [Features](#features)
+    + [Sticky Navigation Bar - Stylish Button](#sticky-navigation-bar---stylish-button)
+    + [Hoover Border Effect](#hoover-border-effect)
+    + [Icons](#icons)
+    + [Hero Image - Stylish Button](#hero-image---stylish-button)
+    + [Select Your Plan Section](#select-your-plan-section)
+    + [How It Works Section](#how-it-works-section)
+    + [Meet The Chef Section](#meet-the-chef-section)
+    + [Plans Page](#plans-page)
+    + [About Page](#about-page)
+    + [Order Page](#order-page)
+    + [Footer](#footer)
+- [Future Features](#future-features)
+  * [Hamburguer Menu](#hamburguer-menu)
+  * [Our Food Display](#our-food-display)
+  * [Products Page](#products-page)
+- [Technologies Used](#technologies-used)
+  * [Languages](#languages)
+  * [Frameworks and Tools](#frameworks-and-tools)
+- [Testing](#testing)
+  * [HTML Validation](#html-validation)
+  * [CSS Validation](#css-validation)
+  * [Accessibility](#accessibility)
+- [Bugs](#bugs)
+- [Deployment](#deployment)
+  * [Fork](#fork)
+  * [Clone](#clone)
+- [Credits](#credits)
+  * [Concepts References](#concepts-references)
+  * [Coding References and Tutorials](#coding-references-and-tutorials)
+- [Acknowledgements](#acknowledgements)
+  
 # User Experience (UX)
 
 ## Business Goals
@@ -25,13 +76,13 @@ Mil's Kitchen is a small business created by a Brazilian chef with the mission o
 - Showcase photos of the weekly dishes
 - Provide a form to enquire about services provided
 
-## Target Audience
+### Target Audience
 - Adults looking for healthy, tasty options for their day-to-day meals
 - People on diets that need help cooking their food
 - Adults who don't have time to cook
 - Vegetarians
 
-## User Expectations
+### User Expectations
 - Easy access to information
 - Simplicity to complete order
 - Appealing design
