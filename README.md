@@ -72,7 +72,7 @@ The website is designed as four separate pages to enable the user to easily and 
 
 The concept behind of the business is healthy food, plant-based as much as possible and home cooking. This is reflected in the pastel colour palette, in the smooth layout and the showcasing the chef behind the curtains.
 
-## Wireframes
+### Wireframes
 
 The initial concept of the design can be seen here and they were made through the Balsamiq wireframing software. 
 
@@ -116,7 +116,7 @@ The initial concept of the design can be seen here and they were made through th
 
 </details>
 
-## Typography
+### Typography
 
 Ronoto Mono and Shadows Into Light fonts were chosen from Google Fonts. Fonts were selected to represent clear, easy-to-read and 'warmer' feel they inspire in the user.
 
@@ -124,7 +124,7 @@ Ronoto Mono and Shadows Into Light fonts were chosen from Google Fonts. Fonts we
 
 ![Roboto Mono Font](docs/roboto-font.jpg)
 
-## Colour Palette
+### Colour Palette
 
 Colour is a very important aspect for engaging with the audience, the colour theme is based around the color: #FFF9EA. The other colors were chosen to tone with this and keep to the overall theme of natural colours. The colors choice was made with the help of the ColorSpace and Coolors website.
 
@@ -143,7 +143,7 @@ The colours were tested on Webaim using their contrast checker. In all combinati
 
 ![Colour Palette](docs/color-pallete.jpg)
 
-## Imagery
+### Imagery
 
 Images are located in every pages All pages have the same thematic layout, and the layout should be consistent on all pages, including the home page. Images were downloaded from Pixabay, Pexels and drawed by the illustrator Hefestus Cave (exclusively for this project). The images are styled with curved borders which is modern and gives a softer effect which is more pleasing to the user.
 
@@ -155,7 +155,7 @@ Icons were used for social links and buttons. The icons used on the site were ta
 
 * [Font Awesome](https://fontawesome.com/)
 
-## Structure 
+### Structure 
 
 To keep the user interface easy and smooth as possible, I choose the sticky nav bar style and a storytelling mode. The theme remains the same throughout all four pages:
 
@@ -192,7 +192,6 @@ The website contains 6 pages (home page, plans page, about page, contact page, f
 ### Hoover Border Effect
 - Every link across the website has a border when its hoovered.
 - The border stays activated when you are inside the clicked page.
-</details>
 <details>
 <summary>Hoover Border Effect</summary>
 <br>
@@ -405,11 +404,20 @@ The website contains 6 pages (home page, plans page, about page, contact page, f
 
 # Future Features
 
-A few features that could make the website even better are listed here.
+A few features that could make the website even better are listed here:
 
-Our Food Display: Add a fith section on the home page show casing the weekly dishs. Updated every week.
+1. Add a fifth section on the home page displaying the weekly food in a carousel. Updates every week;
 
-Products Page: Add another page where it's possible to sell merchandise, condiments, butters and breads.
+2. Add a "Products" page where it's possible to sell merchandise, condiments, jars of butter and pieces of bread;
+
+3. Add a customer review section;
+
+4. Add a search bar. As the website grows, it can become harder for users to find what they're looking for;
+
+5. Implement a login system where the user can have a profile and access their orders;
+
+6. Implement a loyalty program that rewards customers for making repeat purchases or referring friends to Mil's Kitchen. This can help increase customer retention and attract new customers.
+
 # Technologies Used
 
 ### Languages
@@ -447,17 +455,36 @@ The following frameworks and tools were used to develop the website:
 ### HTML Validation
 
 The Nu HTML Checker (W3C) is used to validate HTML documents. The page passed without any errors.
+<details>
+<summary>HTML Validation</summary>
+<br>
+
+![HTML Validation](docs/validation/html-validation.jpg)
+
+</details>
 
 ### CSS Validation
 
 The W3C Jigsaw CSS Validation Service is used to validate CSS documents. The page passed without any errors.
+<details>
+<summary>CSS Validation</summary>
+<br>
+
+![CSS Validation](docs/validation/css-validation.jpg)
+
+</details>
 
 ### Accessibility
 
 The WAVE web accessibility evaluation tool by WebAIM was used to ensure the webpages met accessibility standards. All 5 pages passed without any errors.
+<details>
+<summary>Wave Validation</summary>
+<br>
 
-Responsive test on multiple devices
-The following devices were used to ensure the site was responsive:
+![Wave Validation](docs/validation/wave-validation.jpg)
+
+</details>
+Responsive test on multiple devices. The following devices were used to ensure the site was responsive:
 
 - Ipad Pro
 - Galaxy S20
@@ -467,6 +494,8 @@ The following devices were used to ensure the site was responsive:
 - Notebook Acer Predator Helios 300
 
 # Bugs
+
+I ran into a bunch of small bugs while working on the project, but I managed to deal with them by looking up online and getting help from my colleagues. Here are a few tricky ones that I had to write down so I wouldn't forget:
 
 Bug: A white bar appeared on the right side of the screen on responsive tests when under 400px.
 <br>
