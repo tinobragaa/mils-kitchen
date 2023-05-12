@@ -3,7 +3,7 @@
 
 Mil's Kitchen is a small business created by a Brazilian chef with the mission of providing healthy food that tastes like home. The site is the face of Mil's Kitchen online and aims to provide information about meal plans and how to order them. My goal with this project was to create a clean, modern design that evokes the feeling of natural food and home.
 
-![Mockup image](docs/devices-mockup.jpg)
+![Mockup image](docs/features/devices-mockup.jpg)
 
 [Live Website](https://tinobragaa.github.io/mils-kitchen/)
 
@@ -120,9 +120,9 @@ The initial concept of the design can be seen here and they were made through th
 
 Ronoto Mono and Shadows Into Light fonts were chosen from Google Fonts. Fonts were selected to represent clear, easy-to-read and 'warmer' feel they inspire in the user.
 
-![Shadows Into Light Font](docs/shadows-font.jpg)
+![Shadows Into Light Font](docs/features/shadows-font.jpg)
 
-![Roboto Mono Font](docs/roboto-font.jpg)
+![Roboto Mono Font](docs/features/roboto-font.jpg)
 
 ### Colour Palette
 
@@ -141,7 +141,7 @@ The colours were tested on Webaim using their contrast checker. In all combinati
 
 #FFF9EA + #0E150E = ratio 14.24:1.
 
-![Colour Palette](docs/color-pallete.jpg)
+![Colour Palette](docs/features/color-pallete.jpg)
 
 ### Imagery
 
@@ -178,14 +178,14 @@ The website contains 6 pages (home page, plans page, about page, contact page, f
 <summary>Sticky Navigation Bar</summary>
 <br>
 
-![Sticky Navigation Bar](docs/navigation-bar.jpg)
+![Sticky Navigation Bar](docs/features/navigation-bar.jpg)
 
 </details>
 <details>
 <summary>Camouflaged Effect</summary>
 <br>
 
-![Camouflaged Effect](docs/camouflaged-effect.jpg)
+![Camouflaged Effect](docs/features/camouflaged-effect.jpg)
 
 </details>
 
@@ -196,7 +196,7 @@ The website contains 6 pages (home page, plans page, about page, contact page, f
 <summary>Hoover Border Effect</summary>
 <br>
 
-![Hoover Border Effect](docs/hoover-border.jpg)
+![Hoover Border Effect](docs/features/hoover-border.jpg)
 
 </details>
 
@@ -207,14 +207,14 @@ The website contains 6 pages (home page, plans page, about page, contact page, f
 <summary>Footer Icons</summary>
 <br>
 
-![Footer Icons](docs/footer-icons.jpg)
+![Footer Icons](docs/features/footer-icons.jpg)
 
 </details>
 <details>
 <summary>Mouse Icon</summary>
 <br>
 
-![Mouse Icon](docs/mouse-icon.jpg)
+![Mouse Icon](docs/features/mouse-icon.jpg)
 
 </details>
 
@@ -224,7 +224,7 @@ The website contains 6 pages (home page, plans page, about page, contact page, f
 <summary>Favicon Branding</summary>
 <br>
 
-![Favicon Branding](docs/favicon-logo-mil.jpg)
+![Favicon Branding](docs/features/favicon-logo-mil.jpg)
 
 </details>
 
@@ -236,14 +236,14 @@ The website contains 6 pages (home page, plans page, about page, contact page, f
 <summary>Hero Image</summary>
 <br>
 
-![Hero Image](docs/hero-image.jpg)
+![Hero Image](docs/features/hero-image.jpg)
 
 </details>
 <details>
 <summary>Stylish Button</summary>
 <br>
 
-![Stylish Button](docs/stylish-button.jpg)
+![Stylish Button](docs/features/stylish-button.jpg)
 
 </details>
 
@@ -255,14 +255,14 @@ The website contains 6 pages (home page, plans page, about page, contact page, f
 <summary>Select Your Plan Section</summary>
 <br>
 
-![Select Your Plan Section](docs/select-section.jpg)
+![Select Your Plan Section](docs/features/select-section.jpg)
 
 </details>
 <details>
 <summary>Inner Hyperlinks</summary>
 <br>
 
-![Inner Hyperlinks](docs/inner-links.jpg)
+![Inner Hyperlinks](docs/features/inner-links.jpg)
 
 </details>
 
@@ -273,7 +273,7 @@ The website contains 6 pages (home page, plans page, about page, contact page, f
 <summary>Hoover Explanation Circles </summary>
 <br>
 
-![Hoover Explanation Circles](docs/circle-hoover.jpg)
+![Hoover Explanation Circles](docs/features/circle-hoover.jpg)
 
 </details>
 
@@ -284,14 +284,14 @@ The website contains 6 pages (home page, plans page, about page, contact page, f
 <summary>Meet The Chef Section</summary>
 <br>
 
-![Meet The Chef Section](docs/chef-section.jpg)
+![Meet The Chef Section](docs/features/chef-section.jpg)
 
 </details>
 <details>
 <summary>Stylish Button</summary>
 <br>
 
-![Stylish Button](docs/mtc-stylish-button.jpg)
+![Stylish Button](docs/features/mtc-stylish-button.jpg)
 
 </details>
 
@@ -303,28 +303,28 @@ The website contains 6 pages (home page, plans page, about page, contact page, f
 <summary>Traditional Section</summary>
 <br>
 
-![Traditional Section](docs/traditi-plan.jpeg)
+![Traditional Section](docs/features/traditi-plan.jpeg)
 
 </details>
 <details>
 <summary>Vegetarian Section</summary>
 <br>
 
-![Vegetarian Section](docs/vegeta-plan.jpeg)
+![Vegetarian Section](docs/features/vegeta-plan.jpeg)
 
 </details>
 <details>
 <summary>Personalised Section</summary>
 <br>
 
-![Personalised Section](docs/persona-plan.jpeg)
+![Personalised Section](docs/features/persona-plan.jpeg)
 
 </details>
 <details>
 <summary>Stylish Buttons</summary>
 <br>
 
-![Stylish Buttons](docs/plans-stylish-button.jpg)
+![Stylish Buttons](docs/features/plans-stylish-button.jpg)
 
 </details>
 
@@ -335,7 +335,7 @@ The website contains 6 pages (home page, plans page, about page, contact page, f
 <summary>About Page Sections</summary>
 <br>
 
-![About Page Sections](docs/about-page.jpeg)
+![About Page Sections](docs/features/about-page.jpeg)
 
 </details>
 
@@ -349,35 +349,35 @@ The website contains 6 pages (home page, plans page, about page, contact page, f
 <summary>Form Section</summary>
 <br>
 
-![Form Section](docs/form-section.jpeg)
+![Form Section](docs/features/form-section.jpeg)
 
 </details>
 <details>
 <summary>Thank You Message</summary>
 <br>
 
-![Thank You Message](docs/thanks-section.jpeg)
+![Thank You Message](docs/features/thanks-section.jpeg)
 
 </details>
 <details>
 <summary>Stylish Button</summary>
 <br>
 
-![Stylish Button](docs/cntct-stylish-button.jpg)
+![Stylish Button](docs/features/cntct-stylish-button.jpg)
 
 </details>
 <details>
 <summary>Input Shadow</summary>
 <br>
 
-![Input Shadow](docs/cntct-focus-text.jpg)
+![Input Shadow](docs/features/cntct-focus-text.jpg)
 
 </details>
 <details>
 <summary>Input Required</summary>
 <br>
 
-![Input Required](docs/cntct-input-required.jpg)
+![Input Required](docs/features/cntct-input-required.jpg)
 
 </details>
 
@@ -388,7 +388,7 @@ The website contains 6 pages (home page, plans page, about page, contact page, f
 <summary>Footer</summary>
 <br>
 
-![Footer](docs/footer-bar.jpeg)
+![Footer](docs/features/footer-bar.jpeg)
 
 </details>
 
@@ -398,7 +398,7 @@ The website contains 6 pages (home page, plans page, about page, contact page, f
 <summary>404 Error Page</summary>
 <br>
 
-![404 Error Page](docs/error-page.jpg)
+![404 Error Page](docs/features/error-page.jpg)
 
 </details>
 
