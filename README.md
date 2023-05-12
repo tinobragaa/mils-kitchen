@@ -8,6 +8,55 @@ Mil's Kitchen is a small business created by a Brazilian chef with the mission o
 [Live Website](https://tinobragaa.github.io/mils-kitchen/)
 
 # Table Of Contents
+
+- [Mil's Kitchen](#mil-s-kitchen)
+- [Table Of Contents](#table-of-contents)
+- [User Experience (UX)](#user-experience--ux-)
+  * [Business Goals](#business-goals)
+    + [User Goals](#user-goals)
+    + [Website Owner Goals](#website-owner-goals)
+    + [Target Audience](#target-audience)
+    + [User Expectations](#user-expectations)
+  * [User Stories](#user-stories)
+    + [First-Time User](#first-time-user)
+    + [Returning User](#returning-user)
+    + [Site Owner](#site-owner)
+- [Design](#design)
+    + [Wireframes](#wireframes)
+    + [Typography](#typography)
+    + [Colour Palette](#colour-palette)
+    + [Imagery](#imagery)
+    + [Structure](#structure)
+- [Features](#features)
+    + [Sticky Navigation Bar - Camouflaged Effect](#sticky-navigation-bar---camouflaged-effect)
+    + [Hoover Border Effect](#hoover-border-effect)
+    + [Icons](#icons)
+    + [Favicon](#favicon)
+    + [Home Page Hero Image Section - Stylish Button](#home-page-hero-image-section---stylish-button)
+    + [Home Page Select Your Plan Section](#home-page-select-your-plan-section)
+    + [Home Page How It Works Section](#home-page-how-it-works-section)
+    + [Home Page Meet The Chef Section - Stylish Button](#home-page-meet-the-chef-section---stylish-button)
+    + [Plans Page](#plans-page)
+    + [About Page](#about-page)
+    + [Order Page](#order-page)
+    + [Footer](#footer)
+    + [404 Error Page](#404-error-page)
+- [Future Features](#future-features)
+- [Technologies Used](#technologies-used)
+    + [Languages](#languages)
+    + [Resources and Tools](#resources-and-tools)
+- [Validation](#validation)
+    + [HTML Validation](#html-validation)
+    + [CSS Validation](#css-validation)
+    + [Accessibility](#accessibility)
+- [Bugs](#bugs)
+- [Deployment](#deployment)
+    + [Fork](#fork)
+    + [Clone](#clone)
+- [Credits](#credits)
+    + [Design References](#design-references)
+    + [Coding References and Tutorials](#coding-references-and-tutorials)
+- [Acknowledgements](#acknowledgements)
   
 # User Experience (UX)
 
@@ -157,16 +206,18 @@ Icons were used for social links and buttons. The icons used on the site were ta
 
 ### Structure 
 
-To keep the user interface easy and smooth as possible, I choose the sticky nav bar style and a storytelling mode. The theme remains the same throughout all four pages:
+To keep the user interface easy and smooth as possible, I choose the sticky nav bar style and a storytelling mode. The theme remains the same throughout all pages:
 
-- Home Page: Shows the appealing hero image with a call to action to see the plans, followed by the plans options, followed by the how it works section, followed by meet the chef section and then the footer with another small navigation and social media.
+- Home Page: The webpage layout begins with an attractive hero image that includes a call to action prompting visitors to view the available plans. Following this, visitors are presented with various plan options. After the plans, the next section explains how the service works, followed by a "meet the chef" section. The footer section contains additional small navigation and social media links.
 - Plans Page: Showcase the week's meals and explain the personalised plan.
 - About Page: Allows the users to see ethos of the business.
-- Order Page: Gives users a chance to communicate with the company and start placing an order.
+- Contact Page: Gives users a chance to communicate with the company and start placing an order.
+- Form Submitted: After the form is submitted and thankful message appears to provide the answer with a confirmation.
+- 404 Error Page: There's a 404 Error Page that handles in case of broken links.
 
 # Features
 
-The website contains 6 pages (home page, plans page, about page, contact page, form submitted page and 404 page) and 12 sections. 
+The website contains 6 pages (home page, plans page, about page, contact page, form submitted page and 404 error page) and 12 sections. 
 
 ### Sticky Navigation Bar - Camouflaged Effect
 - Sticky navigation bar.
