@@ -606,6 +606,7 @@ A list of references used for the site:
 * [Responsive Web Design](https://www.youtube.com/watch?v=VsNAuGkCpQU)
 * [Box Shadow](https://www.w3schools.com/cssref/css3_pr_box-shadow.php)
 * [Learn Flexbox](https://www.codecademy.com/learn/learn-css-flexbox-and-grid)
+* [Style Input Type File](https://stackoverflow.com/questions/1537223/change-cursor-type-on-input-type-file)
 * Love Running Project
 
 # Acknowledgements

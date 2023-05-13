@@ -444,11 +444,17 @@ body {
     padding-top: 20px;
 }
 
-/* Footer link hover effect */
+/* Footer pages link hover effect */
 
 .footer-row a:hover {
     text-decoration: underline;
     text-underline-offset: 0.225rem;
+}
+
+/* Footer icons hover effect */
+
+.footer-row ul li i:hover {
+    color: #fff;
 }
 
 /* PLANS PAGE */
