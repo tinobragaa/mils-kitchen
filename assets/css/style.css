@@ -1055,7 +1055,7 @@ input[type=file] {
     }
 
     .plansp-container {
-        height: 2500px;
+        height: 2490px;
     }
 
     .first-food_box {
@@ -1071,6 +1071,10 @@ input[type=file] {
 
     .food-items {
         padding: 20px 100px;
+    }
+
+    #personalised-box {
+        margin: 0 5px 5px;
     }
 
     #personalised-box p {
@@ -1108,18 +1112,6 @@ input[type=file] {
 /* 650px wide and down */
 
 @media screen and (max-width: 650px) {
-    .nav-row ul li a {
-        font-size: 50%;
-        padding: 3px 8px;
-    }
-
-    .itens-left {
-        padding-left: 10px;
-    }
-
-    .itens-right {
-        padding-right: 10px;
-    }   
 
     .container {
         height: 1840px;
@@ -1173,6 +1165,10 @@ input[type=file] {
     .center-icons {
         display: flex;
         justify-content: center;
+    }
+
+    #personalised-box p {
+        padding: 20px 15px 20px;
     }
 
     #about-heading h2 {
@@ -1240,6 +1236,10 @@ input[type=file] {
     .thanks-text_item {
         width: 70%;
     }
+
+    input[type=file] {
+        right: 0;
+    }
 }
 
 /* 450px wide and down */
@@ -1266,6 +1266,10 @@ input[type=file] {
 
     .container {
         height: 1900px;
+    }
+
+    #cover-button h3 {
+        padding: 7px 4.5px 0;
     }
 
     #chef-container {
