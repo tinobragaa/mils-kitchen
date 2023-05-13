@@ -825,6 +825,18 @@ form {
     position: relative;
 }
 
+
+/* Input type file style */
+
+::-webkit-file-upload-button {
+    cursor: pointer;
+}
+
+input[type=file] {
+    cursor: pointer;
+    right: 6px;
+}
+
 /* Submit button */
 
 .submit-button_box {
@@ -848,6 +860,7 @@ form {
     top: 5px;
     left: 8px;
     position: relative;
+    cursor: pointer;
 }
 
 #submit-button:hover {
