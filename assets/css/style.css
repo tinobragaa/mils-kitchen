@@ -1360,6 +1360,10 @@ input[type=file] {
         height: 1900px;
     }
 
+    .second-container {
+        height: 1440px;
+    }
+
     #cover-button h3 {
         padding: 7px 4.5px 0;
     }
@@ -1399,5 +1403,21 @@ input[type=file] {
 
     .thanks-text_item p {
         font-size: 100%;
+    }
+
+    #story-button h3, .order-button h3 {
+        left: 7px;
+    }
+
+    .submit-button_box {
+        width: 5px;
+    }
+}
+
+/* 415px wide and down */
+
+@media screen and (max-width: 415px) {
+    #cover-text {
+        margin: 0 5px;
     }
 }
