@@ -343,7 +343,14 @@ The website contains 6 pages (home page, plans page, about page, contact page, t
 - Caught user eyes while explaining the process, enhancing their experience.
 - Hoover effect for stylish effect.
 <details>
-<summary>Hoover Explanation Circles </summary>
+<summary>How It Works Section</summary>
+<br>
+
+![How It Works Section](docs/features/hiw-section.jpg)
+
+</details>
+<details>
+<summary>Hoover Explanation Circles</summary>
 <br>
 
 ![Hoover Explanation Circles](docs/features/circle-hoover.jpg)

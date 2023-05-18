@@ -1130,13 +1130,20 @@ input[type=file] {
     text-transform: uppercase;
     text-align: center;
     width: 80%;
+    height: 80vh;
     border-radius: 15px;
     padding: 10px;
     margin: 10px auto 28px;
 }
 
+.error-page h2 {
+    font-size: 400%;
+    font-weight: 900;
+    margin-top: 22%;
+}
+
 .error-page a {
-    color: #0E150E;
+    color: #fff;
     text-decoration: none;
 }
 
