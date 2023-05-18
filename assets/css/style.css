@@ -253,7 +253,7 @@ body {
 #cover-button {
     background-color: #0E150E;
     height: 40px;
-    max-width: 230px;
+    width: 245px;
     border-radius: 15px;
     margin: 0 auto;
 }
@@ -1540,5 +1540,21 @@ input[type=file] {
 @media screen and (max-width: 415px) {
     #cover-text {
         margin: 0 5px;
+    }
+}
+
+/* iPhone landscape orientation */
+
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) {
+    #cover-text h2 { 
+        padding: 0 25px;
+    }
+
+    #contact-img_item img {
+        display: none;
     }
 }
