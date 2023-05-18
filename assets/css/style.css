@@ -542,7 +542,7 @@ body {
     height: 68px;
     width: 100%;
     position: relative;
-    z-index: 8;
+    z-index: 4 !important;
 }
 
 .footer-row ul {

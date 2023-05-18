@@ -28,18 +28,18 @@ Mil's Kitchen is a small business created by a Brazilian chef with the mission o
     + [Imagery](#imagery)
     + [Structure](#structure)
 - [Features](#features)
-    + [Sticky Navigation Bar - Camouflaged Effect](#sticky-navigation-bar---camouflaged-effect)
-    + [Hoover Border Effect](#hoover-border-effect)
-    + [Icons](#icons)
     + [Favicon](#favicon)
-    + [Home Page Hero Image Section - Stylish Button](#home-page-hero-image-section---stylish-button)
+    + [Sticky Navigation Bar](#sticky-navigation-bar)
+    + [Icons](#icons)
+    + [Footer](#footer)
+    + [Home Page Hero Image Section](#home-page-hero-image-section)
     + [Home Page Select Your Plan Section](#home-page-select-your-plan-section)
     + [Home Page How It Works Section](#home-page-how-it-works-section)
-    + [Home Page Meet The Chef Section - Stylish Button](#home-page-meet-the-chef-section---stylish-button)
+    + [Home Page Meet The Chef Section](#home-page-meet-the-chef-section)
     + [Plans Page](#plans-page)
     + [About Page](#about-page)
     + [Order Page](#order-page)
-    + [Footer](#footer)
+    + [Thank You Page](#thank-you-page)
     + [404 Error Page](#404-error-page)
 - [Future Features](#future-features)
 - [Technologies Used](#technologies-used)
@@ -212,19 +212,29 @@ To keep the user interface easy and smooth as possible, I choose the sticky nav 
 - Plans Page: Showcase the week's meals and explain the personalised plan.
 - About Page: Allows the users to see ethos of the business.
 - Contact Page: Gives users a chance to communicate with the company and start placing an order.
-- Form Submitted: After the form is submitted and thankful message appears to provide the answer with a confirmation.
+- Thank You Page: After the form is submitted and thankful message appears to provide the answer with a confirmation.
 - 404 Error Page: There's a 404 Error Page that handles in case of broken links.
 
 # Features
 
-The website contains 6 pages (home page, plans page, about page, contact page, form submitted page and 404 error page) and 12 sections. 
+The website contains 6 pages (home page, plans page, about page, contact page, thank you page and 404 error page). 
 
-### Sticky Navigation Bar - Camouflaged Effect
-- Sticky navigation bar.
-- Camouflaged color creating an stylish effect.
-- Appears on every page.
-- The nav links shrink on smaller screens making it responsive.
+### Favicon
+- Favicon inspired in the Chef Mil. Keep up with branding and high design.
+<details>
+<summary>Favicon Branding</summary>
+<br>
+
+![Favicon Branding](docs/features/favicon-logo-mil.jpg)
+
+</details>
+
+### Sticky Navigation Bar
+- Sticky navigation bar that remains visible at the top of the screen as the user scrolls down the page.
+- Camouflaged color creating a stylish effect when in contact with specific sections.
+- Hamburger menu on smaller screens for responsiveness.
 - Enables easy and smooth navigation.
+- Every navigation link has a border when its hoovered which stays activated according to the page you're currently on.
 <details>
 <summary>Sticky Navigation Bar</summary>
 <br>
@@ -239,15 +249,18 @@ The website contains 6 pages (home page, plans page, about page, contact page, f
 ![Camouflaged Effect](docs/features/camouflaged-effect.jpg)
 
 </details>
-
-### Hoover Border Effect
-- Every link across the website has a border when its hoovered.
-- The border stays activated when you are inside the clicked page.
 <details>
 <summary>Hoover Border Effect</summary>
 <br>
 
 ![Hoover Border Effect](docs/features/hoover-border.jpg)
+
+</details>
+<details>
+<summary>Hamburger Menu</summary>
+<br>
+
+![Hamburger Menu](docs/features/hamburger-menu.jpg)
 
 </details>
 
@@ -269,20 +282,29 @@ The website contains 6 pages (home page, plans page, about page, contact page, f
 
 </details>
 
-### Favicon
-- Favicon inspired in the Chef Mil. Keep up with branding and high design.
+### Footer
+- Social media links.
+- Pages links.
 <details>
-<summary>Favicon Branding</summary>
+<summary>Footer</summary>
 <br>
 
-![Favicon Branding](docs/features/favicon-logo-mil.jpg)
+![Footer](docs/features/footer-bar.jpeg)
+
+</details>
+<details>
+<summary>Smartphone's Footer</summary>
+<br>
+
+![Smartphone's Footer](docs/features/smartphone-footer.jpg)
 
 </details>
 
-### Home Page Hero Image Section - Stylish Button
+### Home Page Hero Image Section
 - Makes the website more appealing and professional looking.
 - Stylish eye catching button with hoover effect.
 - Call to action.
+- Stylish Button.
 <details>
 <summary>Hero Image</summary>
 <br>
@@ -328,9 +350,10 @@ The website contains 6 pages (home page, plans page, about page, contact page, f
 
 </details>
 
-### Home Page Meet The Chef Section - Stylish Button
+### Home Page Meet The Chef Section
 - Meet the chef behind the curtains.
 - Explore the company history ad ethos.
+- Stylish Button.
 <details>
 <summary>Meet The Chef Section</summary>
 <br>
@@ -394,20 +417,12 @@ The website contains 6 pages (home page, plans page, about page, contact page, f
 - Form to order.
 - Shadow behind the input text to reinforce that is selected.
 - Stylish Button.
-- Succesfull message for submitted form.
 - Input required to avoid mistakes and poor experience.
 <details>
 <summary>Form Section</summary>
 <br>
 
 ![Form Section](docs/features/form-section.jpeg)
-
-</details>
-<details>
-<summary>Thank You Message</summary>
-<br>
-
-![Thank You Message](docs/features/thanks-section.jpeg)
 
 </details>
 <details>
@@ -432,24 +447,23 @@ The website contains 6 pages (home page, plans page, about page, contact page, f
 
 </details>
 
-### Footer
-- Social media links.
-- Pages links.
+### Thank You Page
+- When the form us submitted the Thank You page loads.
 <details>
-<summary>Footer</summary>
+<summary>Thank You Section</summary>
 <br>
 
-![Footer](docs/features/footer-bar.jpeg)
+![Thank You Section](docs/features/thanks-section.jpeg)
 
 </details>
 
 ### 404 Error Page
 - Page that redirects broken links.
 <details>
-<summary>404 Error Page</summary>
+<summary>404 Error Section</summary>
 <br>
 
-![404 Error Page](docs/features/error-page.jpg)
+![404 Error Section](docs/features/error-page.jpg)
 
 </details>
 
