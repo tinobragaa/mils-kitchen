@@ -51,13 +51,14 @@ Mil's Kitchen is a small business created by a Brazilian chef with the mission o
     + [Accessibility](#accessibility)
 - [Bugs](#bugs)
 - [Deployment](#deployment)
+    + [Deploy](#deploy)
     + [Fork](#fork)
     + [Clone](#clone)
 - [Credits](#credits)
     + [Design References](#design-references)
     + [Coding References and Tutorials](#coding-references-and-tutorials)
 - [Acknowledgements](#acknowledgements)
-  
+
 # User Experience (UX)
 
 ## Business Goals
@@ -498,7 +499,7 @@ The following languages were used to develop the website:
 - CSS
 
 ### Resources and Tools
-The following frameworks and tools were used to develop the website:
+The following resources and tools were used to develop the website:
 - Git
 - Github
 - Gitpod
@@ -579,6 +580,9 @@ Fix: Added a container element wrapping all the others.
 
 # Deployment
 
+[Click Here To See The Live Website](https://tinobragaa.github.io/mils-kitchen/)
+
+### Deploy
 The website was deployed through the use of GitHub Pages, a feature built in to GitHub. This can be done by following the steps below.
 1. In the desired repository, click on "Settings" from the top menu.
 2. From the side menu to your left, select "Pages" in the "Code and automation" section.
@@ -604,8 +608,6 @@ To contribute or check the code yourself, you can fork or clone the repository a
 5. Change the current working directory to the location where you want the cloned directory
 6. Type "git clone", and then paste the URL you copied earlier. It will look like this, with your GitHub username instead of "YOUR-USERNAME": "$ git clone https://github.com/YOUR-USERNAME/DESIRED-REPOSITORY"
 7. Press Enter. Your local clone will be created.
-
-[Click Here To See The Live Website](https://tinobragaa.github.io/mils-kitchen/)
 
 # Credits
 
